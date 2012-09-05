@@ -27,7 +27,7 @@
 				<span class="catalyst-custom-fonts-button-wrap"><span id="show-post-nav-font-css" class="catalyst-custom-fonts-button">#Custom</span></span>
 				<div style="display:none;" id="show-post-nav-font-css-box" class="catalyst-custom-fonts-box">
 				<?php _e( 'Post Nav Font Custom CSS | <code>.post-nav li a, .post-nav li.disabled, .post-nav li a:hover, .post-nav li.active a { }</code>', 'catalyst' ); ?><br />
-				<textarea class="catalyst-universal-font-css-child catalyst-universal-content-font-css-child" id="catalyst-post-nav-font-css" name="catalyst[post_nav_font_css]" style="width:100%;" rows="10"><?php catalyst_get_dynamik( 'post_nav_font_css' ); ?></textarea>
+				<textarea class="catalyst-universal-font-css-child catalyst-universal-content-font-css-child" id="catalyst-post-nav-font-css" name="catalyst[post_nav_font_css]" style="width:100%;" rows="10"><?php echo catalyst_get_dynamik( 'post_nav_font_css' ); ?></textarea>
 				</div>
 			</p>
 		</div>

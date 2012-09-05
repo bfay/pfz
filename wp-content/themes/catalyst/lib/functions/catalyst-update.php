@@ -694,6 +694,23 @@ function catalyst_update()
 		
 		update_option( 'catalyst_version_number', '1.5.1' );
 	}
+
+	// Update to Catalyst 1.5.2
+	if( version_compare( get_option( 'catalyst_version_number' ), '1.5.2', '<' ) )
+	{
+		$core_settings = get_option( 'catalyst_core_options' );
+		$new_core_settings = array(
+			'buddypress_layout_type' => 'catalyst_default',
+			'bbpress_layout_type' => 'catalyst_default',
+			'woocommerce_layout_type' => 'catalyst_default',
+			'breadcrumbs_404' => 0,
+			'breadcrumbs_text_404' => 'Page Not Found'
+		);
+		$core_settings = wp_parse_args( $new_core_settings, $core_settings );
+		update_option( 'catalyst_core_options', $core_settings );
+
+		update_option( 'catalyst_version_number', '1.5.2' );
+	}
 	
 	// Finish the update sequence.
 	delete_transient( 'catalyst-update' );
@@ -715,7 +732,7 @@ function catalyst_activate()
 	
 	if( !get_option( 'catalyst_version_number' ) )
 	{
-		update_option( 'catalyst_version_number', '1.5.1' );
+		update_option( 'catalyst_version_number', '1.5.2' );
 	}
 	
 	if( !get_option( 'catalyst_core_options' ) )

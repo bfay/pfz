@@ -54,8 +54,8 @@
 		
 		<div class="catalyst-dynamik-option">
 			<p style="margin-top:4px;" class="bg-box-design">
-				<input type="radio" name="catalyst[dynamik_homepage_type]" value="default_home" <?php if (catalyst_get_dynamik( 'dynamik_homepage_type' ) == 'default_home') echo 'checked="checked" '; ?>/><label><?php _e( 'WordPress Default Homepage', 'catalyst' ); ?></label>
-				<input type="radio" name="catalyst[dynamik_homepage_type]" value="static_home" <?php if (catalyst_get_dynamik( 'dynamik_homepage_type' ) == 'static_home') echo 'checked="checked" '; ?>/><label><?php _e( 'Static Homepage', 'catalyst' ); ?></label>
+				<input type="radio" name="catalyst[dynamik_homepage_type]" value="default_home" <?php if (catalyst_get_dynamik( 'dynamik_homepage_type' ) == 'default_home') echo 'checked="checked" '; ?>/><label> <?php _e( 'WordPress Default Homepage', 'catalyst' ); ?></label>
+				<input type="radio" name="catalyst[dynamik_homepage_type]" value="static_home" <?php if (catalyst_get_dynamik( 'dynamik_homepage_type' ) == 'static_home') echo 'checked="checked" '; ?>/><label> <?php _e( 'Static Homepage', 'catalyst' ); ?></label>
 			</p>
 		</div>
 		

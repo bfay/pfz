@@ -4,7 +4,7 @@ Theme URI: http://catalysttheme.com
 Description: Accelerate your development with Catalyst, the Ultimate WordPress Framework Theme. 
 Author: The Catalyst Team
 Author URI: http://catalysttheme.com
-Version: 1.5.1
+Version: 1.5.2
 
 License: GNU General Public License v2.0
 License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -584,10 +584,6 @@ body.page-template-template-blog-php .post-format-icon {
 	padding: 20px;
 }
 
-body.landing-page #container-wrap {
-	padding: 0;
-}
-
 #container {
 	width: 920px;
 	margin: 0;
@@ -791,25 +787,25 @@ body.landing-page #container-wrap {
 
 /*** Content UL's/OL's ***/
 
-#content .post ul, #content .page ul, .catalyst-widget-area ul, #content .post ol, #content .page ol, .catalyst-widget-area ol {
+#content .post ul, #content .page ul, #content article ul, .catalyst-widget-area ul, #content .post ol, #content .page ol, #content article ol, .catalyst-widget-area ol {
 	margin: 0;
 	padding: 0 0 15px;
 }
 	
-#content .post ul li, #content .page ul li, #content .post ol li, #content .page ol li, .catalyst-widget-area ul li, .catalyst-widget-area ol li {
+#content .post ul li, #content .page ul li, #content article ul li, #content .post ol li, #content .page ol li, #content article ol li, .catalyst-widget-area ul li, .catalyst-widget-area ol li {
 	margin: 0 0 0 20px;
 	padding: 0;
 }
 	
-#content .post ul li, #content .page ul li, .catalyst-widget-area ul li {
+#content .post ul li, #content .page ul li, #content article ul li, .catalyst-widget-area ul li {
 	list-style-type: square;
 }
 
-#content .post ul ul, #content .page ul ul, .catalyst-widget-area ul ul {
+#content .post ul ul, #content .page ul ul, #content article ul ul, .catalyst-widget-area ul ul {
 	padding: 0 0 0 20px;
 }
 
-#content .post ol ol, #content .page ol ol, .catalyst-widget-area ol ol {
+#content .post ol ol, #content .page ol ol, #content article ol ol, .catalyst-widget-area ol ol {
 	padding: 0;
 }
 

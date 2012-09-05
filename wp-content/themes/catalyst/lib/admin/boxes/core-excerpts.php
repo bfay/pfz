@@ -49,7 +49,7 @@
 					<h5><?php _e( 'Creating Different Thumbnail Sizes:', 'catalyst' ); ?></h5>
 					<p>
 						<?php _e( 'With Catalyst you can create up to 4 totally unique Thumbnail Image sizes to be used in your Excerpts. You can choose the width, height and even whether or not to Resize or Crop the images. The default Thumbnail options (along with the Medium and Large image sizes) are set in', 'catalyst' ); ?>
-						<a href="<?php echo admin_url( 'options-media.php' ); ?>"><?php _e( '<b>(Settings > Media)</b>', 'catalyst' ); ?></a>
+						<a href="<?php echo admin_url( 'options-media.php' ); ?>"><?php _e( '<strong>(Settings > Media)</strong>', 'catalyst' ); ?></a>
 						<?php _e( 'in your WordPress Dashboard.', 'catalyst' ); ?>
 					</p>
 					
@@ -118,7 +118,7 @@
 					
 				<div class="bg-box">
 					<p>
-						<b><?php _e( 'custom-thumb-1', 'catalyst' ); ?></b>
+						<strong><?php _e( 'custom-thumb-1', 'catalyst' ); ?></strong>
 					</p>
 					<p>
 						<?php _e( 'Mode', 'catalyst' ); ?>
@@ -138,7 +138,7 @@
 				</div>
 				<div class="bg-box">
 					<p>
-						<b><?php _e( 'custom-thumb-2', 'catalyst' ); ?></b>
+						<strong><?php _e( 'custom-thumb-2', 'catalyst' ); ?></strong>
 					</p>
 					<p>
 						<?php _e( 'Mode', 'catalyst' ); ?>
@@ -157,7 +157,7 @@
 				</div>
 				<div class="bg-box">
 					<p>
-						<b><?php _e( 'custom-thumb-3', 'catalyst' ); ?></b>
+						<strong><?php _e( 'custom-thumb-3', 'catalyst' ); ?></strong>
 					</p>
 					<p>
 						<?php _e( 'Mode', 'catalyst' ); ?>

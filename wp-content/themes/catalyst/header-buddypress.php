@@ -1,6 +1,6 @@
 <?php
 /**
- * Builds the header structure.
+ * Builds the header structure when the BuddyPress plugin is active.
  *
  * @package Catalyst
  */
@@ -38,3 +38,19 @@ catalyst_hook_after_header( $catalyst_layout_id . '_catalyst_hook_after_header' 
 catalyst_hook_after_after_header( $catalyst_layout_id . '_catalyst_hook_after_after_header' );
 }
 ?>
+
+<div id="container-wrap">
+
+	<?php catalyst_hook_before_container( $catalyst_layout_id . '_catalyst_hook_before_container' ); ?>
+
+	<div id="container">
+	
+		<?php catalyst_hook_before_content_sidebar_wrap( $catalyst_layout_id . '_catalyst_hook_before_content_sidebar_wrap' ); ?>
+	
+		<div id="content-sidebar-wrap">
+		
+			<?php catalyst_hook_before_content_wrap( $catalyst_layout_id . '_catalyst_hook_before_content_wrap' ); ?>
+			
+			<div id="content-wrap">
+
+				<?php catalyst_hook_before_content( $catalyst_layout_id . '_catalyst_hook_before_content' ); ?>

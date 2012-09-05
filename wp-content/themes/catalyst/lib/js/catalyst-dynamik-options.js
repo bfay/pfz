@@ -185,7 +185,7 @@ jQuery(document).ready(function($) {
 		});
 	});
 	
-	$('.forbid-chars').live('keydown', function() {
+	$('.forbid-chars').on('keydown', function() {
 		if (!$(this).data('init')) {
 			$(this).data('init', true);
 			$(this).alphanumeric({allow:'_',nocaps:false});

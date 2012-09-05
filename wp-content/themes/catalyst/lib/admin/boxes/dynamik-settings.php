@@ -8,7 +8,7 @@
 
 <div style="display:none;" id="catalyst-dynamik-settings-content" class="catalyst-optionbox-outer-1col">
 	<div class="catalyst-optionbox-inner-1col">
-		<h3><?php _e( 'Dynamik Settings', 'catalyst' ); ?></h3>
+		<h3><?php _e( 'Additional Dynamik Settings', 'catalyst' ); ?></h3>
 		
 		<div class="catalyst-dynamik-option-desc">
 			<p><?php _e( 'WordPress Post Formats', 'catalyst' ); ?></p>
@@ -17,7 +17,7 @@
 		<div class="catalyst-dynamik-option">
 			<p class="bg-box-design" style="padding-top:8px;">
 				<input type="checkbox" id="catalyst-post-formats-active" name="catalyst[post_formats_active]" value="1" <?php if( checked( 1, catalyst_get_dynamik( 'post_formats_active' ) ) ); ?> /> <?php _e( 'Activate WordPress Post Formats', 'catalyst' ); ?>
-				<span id="dynamik-post-formats-active-tooltip" class="tooltip-mark tooltip-top-left">[?]</span>
+				<span id="dynamik-post-formats-active-tooltip" class="tooltip-mark tooltip-center-left">[?]</span>
 				<div class="tooltip tooltip-400">
 					<p>
 						<?php _e( 'By activating this Post Formats Functionality you will be enabling a feature inside your Post Editor that allows the selection of different Post Formats on a Per-Post basis.', 'catalyst' ); ?>

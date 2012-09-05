@@ -21,7 +21,7 @@ define( 'CATALYST_SHORTCODES', CATALYST_LIB . '/shortcodes' );
 define( 'CATALYST_WIDGETS', CATALYST_LIB . '/widgets' );
 define( 'CATALYST_CSS', CATALYST_LIB . '/css' );
 define( 'CATALYST_THEME_NAME', 'Catalyst' );
-define( 'CATALYST_THEME_VERSION', '1.5.1' );
+define( 'CATALYST_THEME_VERSION', '1.5.2' );
 define( 'CATALYST_URL', get_template_directory_uri() );
 define( 'CHILD_URL', get_stylesheet_directory_uri() );
 

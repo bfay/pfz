@@ -106,6 +106,39 @@ function catalyst_site_layout()
 	{	
 		$site_layout_type = 'home-layout child_home';
 	}
+	elseif( class_exists( 'BuddyPress' ) && !bp_is_blog_page() )
+	{
+		if( catalyst_get_core( 'buddypress_layout_type' ) != 'catalyst_default' )
+		{
+			$site_layout_type = catalyst_get_this_layout_type( catalyst_get_core( 'buddypress_layout_type' ) );
+		}
+		else
+		{
+			$site_layout_type = catalyst_get_core( 'site_layout_type' ) . ' catalyst_default';
+		}
+	}
+	elseif( class_exists( 'bbPress' ) && is_bbpress() )
+	{
+		if( catalyst_get_core( 'bbpress_layout_type' ) != 'catalyst_default' )
+		{
+			$site_layout_type = catalyst_get_this_layout_type( catalyst_get_core( 'bbpress_layout_type' ) );
+		}
+		else
+		{
+			$site_layout_type = catalyst_get_core( 'site_layout_type' ) . ' catalyst_default';
+		}
+	}
+	elseif( class_exists( 'Woocommerce' ) && ( is_woocommerce() || is_cart() || is_checkout() || is_account_page() || is_page( 'order-received' ) || is_page( 'order-tracking' ) ) )
+	{
+		if( catalyst_get_core( 'woocommerce_layout_type' ) != 'catalyst_default' )
+		{
+			$site_layout_type = catalyst_get_this_layout_type( catalyst_get_core( 'woocommerce_layout_type' ) );
+		}
+		else
+		{
+			$site_layout_type = catalyst_get_core( 'site_layout_type' ) . ' catalyst_default';
+		}
+	}
 	elseif( is_page() || is_single() )
 	{
 		if( is_page() )

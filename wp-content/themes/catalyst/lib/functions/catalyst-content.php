@@ -573,7 +573,7 @@ add_action( 'catalyst_hook_post_title', 'catalyst_post_title' );
  */
 function catalyst_post_title()
 {
-	if( is_singular() )
+	if( is_singular() || ( class_exists( 'bbPress' ) && is_bbpress() ) )
 	{
 		$post_title = '<h1 class="entry-title">' . get_the_title() . '</h1>' . "\n";
 	}
@@ -681,7 +681,7 @@ function catalyst_build_the_content()
 		$thumbnail_alignment = ( catalyst_get_core( 'thumbnail_alignment' ) == 'None' ) ? '' : 'align' . strtolower( catalyst_get_core( 'thumbnail_alignment' ) );
 	}
 	
-	if( is_singular() )
+	if( is_singular() || ( class_exists( 'bbPress' ) && is_bbpress() ) )
 	{
 		echo the_content( $read_more_text ) . '<div style="clear:both;"></div>' . "\n";
 		wp_link_pages( array( 'before' => '<p class="pages">' . __( 'Pages:', 'catalyst' ), 'after' => '</p>' ) );

@@ -1,12 +1,36 @@
 <?php
 /**
- * Builds the footer structure.
+ * Builds the footer structure when the BuddyPress plugin is active.
  *
  * @package Catalyst
  */
  
 global $catalyst_layout_id;
+?>
 
+				<div style="clear:both;"></div>
+				
+				<?php catalyst_hook_after_content( $catalyst_layout_id . '_catalyst_hook_after_content' ); ?>
+
+			</div><!-- end #content-wrap -->
+			
+			<?php catalyst_hook_after_content_wrap( $catalyst_layout_id . '_catalyst_hook_after_content_wrap' ); ?>
+
+		</div><!-- end #content-sidebar-wrap -->
+		
+		<?php catalyst_hook_after_content_sidebar_wrap( $catalyst_layout_id . '_catalyst_hook_after_content_sidebar_wrap' ); ?>
+		
+	</div><!-- end #container -->
+	
+	<div style="clear:both;"></div>
+	
+	<?php catalyst_hook_after_container( $catalyst_layout_id . '_catalyst_hook_after_container' ); ?>
+	
+</div><!-- end #container_wrap -->
+
+<div style="clear:both;"></div>
+
+<?php
 if( !is_page_template( 'template-blank-body.php' ) )
 {
 catalyst_hook_before_before_footer( $catalyst_layout_id . '_catalyst_hook_before_before_footer' );

@@ -163,7 +163,7 @@ jQuery(document).ready(function($){
 		return false;
 	});
 	
-	$('.forbid-chars').live('keydown', function() {
+	$('.forbid-chars').on('keydown', function() {
 		if (!$(this).data('init')) {
 			$(this).data('init', true);
 			$(this).alphanumeric({allow:'_',nocaps:true});
@@ -171,25 +171,25 @@ jQuery(document).ready(function($){
 		}
 	});
 	
-	$('.forbid-chars').live('keydown', function() {
+	$('.forbid-chars').on('keydown', function() {
 		var value = $(this).val();
 		value = value.replace(/^[0-9]/, '');
 		$(this).val(value);
 	});
 	
-	$('.forbid-chars').live('keyup', function() {
+	$('.forbid-chars').on('keyup', function() {
 		var value = $(this).val();
 		value = value.replace(/^[0-9]/, '');
 		$(this).val(value);
 	});
 	
-    $('.forbid-chars').live('paste', function(event) { 
+    $('.forbid-chars').on('paste', function(event) { 
         var charCode = event.which;
         var keyChar = String.fromCharCode(charCode); 
         return /[*]/.test(keyChar); 
     });
 	
-	$('.forbid-names').live('focusout', function(e) {
+	$('.forbid-names').on('focusout', function(e) {
 		var value = $(this).val();
 		if(value == 'blog' || value == 'home' || value == 'post' || value == 'page' || value == 'single' || value == 'archive' || value == 'date' || value == 'category' || value == 'tag' || value == 'search' || value == 'error404') {
 			setTimeout(function() {
@@ -206,7 +206,7 @@ jQuery(document).ready(function($){
 		$('#catalyst-layouts-wrap').prepend('<div id="layout-' + layout_counter + '"><div class="catalyst-custom-layout-option-desc"><p>' + e_custom_layout_options + '</p></div><div class="catalyst-custom-layout-option"><p class="bg-box-design">' + e_name + ' <input type="text" id="custom-layout-id-' + layout_counter + '" name="custom_layout_ids[]" value="" style="width:235px;" class="forbid-chars forbid-names"/> <select id="custom-layout-type-' + layout_counter + '" name="custom_layout_types[]" size="1" style="width:155px;">' + f_catalyst_list_layout_types + '</select><span id="' + layout_counter + '"class="button delete-layout">' + e_delete + '</span></p></div></div>');
 	});
 	
-	$('.delete-layout').live('click', function () { 
+	$('.delete-layout').on('click', function () { 
 		var confirm_layout_delete = confirm("Are you sure you want to Delete this Layout?");
 		if(confirm_layout_delete) {
 			var numb = $(this).attr('id');
@@ -238,7 +238,7 @@ jQuery(document).ready(function($){
 		$('#custom-layouts-list-' + widget_counter).width(layouts_list_menu_width);
 	});
 	
-	$('.delete-widget').live('click', function () {
+	$('.delete-widget').on('click', function () {
 		var numb = $(this).attr('id');
 		var widget_name = $('#custom-widget-id-' + numb).val();
 		if( widget_name != '' ) {
@@ -270,7 +270,7 @@ jQuery(document).ready(function($){
 		$('textarea.resizable:not(.processed)').TextAreaResizer();
 	});
 	
-	$('.delete-hook').live('click', function () { 
+	$('.delete-hook').on('click', function () { 
 		var confirm_hook_delete = confirm("Are you sure you want to Delete this Hook Box?");
 		if(confirm_hook_delete) {
 			var numb = $(this).attr('id');

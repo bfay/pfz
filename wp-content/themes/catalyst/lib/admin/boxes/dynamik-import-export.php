@@ -38,8 +38,8 @@
 		<div class="catalyst-dynamik-option">
 			<p class="bg-box-design">
 				<strong><?php _e( 'Export File Name:', 'catalyst' ); ?></strong> <input type="text" id="dynamik-export-name" name="dynamik_export_name" value="" style="width:190px; margin-bottom:5px;" class="forbid-chars" />
-				<input type="submit" name="clicked_button" value="<?php _e( 'Dynamik Export', 'catalyst' ); ?>" class="button-highlighted"/>
 				<input type="checkbox" value="include_images" name="include_images[]" value="1" checked > <?php _e( 'Include Images?', 'catalyst' ); ?>
+				<input type="submit" name="clicked_button" value="<?php _e( 'Dynamik Export', 'catalyst' ); ?>" class="button-highlighted"/>
 				<input type="hidden" name="action" value="catalyst_dynamik_export">
 			</p>
 		</div>

@@ -76,6 +76,18 @@
 					<p>
 						<?php _e( 'Search Page Layout', 'catalyst' ); ?> <select id="catalyst-search-layout-type" name="catalyst[search_layout_type]" size="1" style="width:223px;"><?php $search_layout = catalyst_get_core( 'search_layout_type' ); catalyst_list_layouts( $search_layout ); ?></select>
 					</p>
+
+					<p<?php if ( !class_exists( 'BuddyPress' ) ) { echo ' style="display:none;"'; } ?>>
+						<?php _e( 'BuddyPress Page Layout', 'catalyst' ); ?> <select id="catalyst-buddypress-layout-type" name="catalyst[buddypress_layout_type]" size="1" style="width:198px;"><?php $buddypress_layout = catalyst_get_core( 'buddypress_layout_type' ); catalyst_list_layouts( $buddypress_layout ); ?></select>
+					</p>
+
+					<p<?php if ( !class_exists( 'bbPress' ) ) { echo ' style="display:none;"'; } ?>>
+						<?php _e( 'BBPress Page Layout', 'catalyst' ); ?> <select id="catalyst-bbpress-layout-type" name="catalyst[bbpress_layout_type]" size="1" style="width:215px;"><?php $bbpress_layout = catalyst_get_core( 'bbpress_layout_type' ); catalyst_list_layouts( $bbpress_layout ); ?></select>
+					</p>
+
+					<p<?php if ( !class_exists( 'Woocommerce' ) ) { echo ' style="display:none;"'; } ?>>
+						<?php _e( 'WooCommerce Page Layout', 'catalyst' ); ?> <select id="catalyst-woocommerce-layout-type" name="catalyst[woocommerce_layout_type]" size="1" style="width:182px;"><?php $woocommerce_layout = catalyst_get_core( 'woocommerce_layout_type' ); catalyst_list_layouts( $woocommerce_layout ); ?></select>
+					</p>
 					
 					<p>
 						<?php _e( '404 Page Layout', 'catalyst' ); ?> <select id="catalyst-404-layout-type" name="catalyst[404_layout_type]" size="1" style="width:240px;"><?php $four_o_four_layout = catalyst_get_core( '404_layout_type' ); catalyst_list_layouts( $four_o_four_layout ); ?></select>
@@ -199,10 +211,10 @@
 				
 				<div class="bg-box">
 					<p>
-						<?php _e( 'Include Catalyst In-Post Options With Specific Custom Post Types', 'catalyst' ); ?> <span id="include-inpost-all-cpts-tooltip" class="tooltip-mark tooltip-top-center">[?]</span>
+						<?php _e( 'Include Catalyst In-Post Options With Specific Custom Post Types', 'catalyst' ); ?> <span id="include-inpost-all-cpts-tooltip" class="tooltip-mark tooltip-center-right">[?]</span>
 					</p>
 					
-					<div class="tooltip tooltip-500">
+					<div class="tooltip tooltip-400">
 						<h5><?php _e( 'How To Include Catalyst In-Post Options With Your Custom Post Types:', 'catalyst' ); ?></h5>
 						<p>
 							<?php _e( 'With the option below you can include Catalyst In-Post Options with certain Custom Post Types by including their Custom Post Type Names. Note that you can reference your current Custom Post Type Names by clicking on the [Names] link below.', 'catalyst' ); ?>
@@ -309,7 +321,8 @@
 						<input type="checkbox" id="catalyst-breadcrumbs-pages" name="catalyst[breadcrumbs_pages]" value="1" <?php if( checked( 1, catalyst_get_core( 'breadcrumbs_pages' ) ) ); ?> /> <?php _e( 'Breadcrumbs On Pages', 'catalyst' ); ?><br />
 						<input type="checkbox" id="catalyst-breadcrumbs-archives" name="catalyst[breadcrumbs_archives]" value="1" <?php if( checked( 1, catalyst_get_core( 'breadcrumbs_archives' ) ) ); ?> /> <?php _e( 'Breadcrumbs On Archives', 'catalyst' ); ?><br />
 						<input type="checkbox" id="catalyst-breadcrumbs-blog" name="catalyst[breadcrumbs_blog]" value="1" <?php if( checked( 1, catalyst_get_core( 'breadcrumbs_blog' ) ) ); ?> /> <?php _e( 'Breadcrumbs On Blog Template', 'catalyst' ); ?><br />
-						<input type="checkbox" id="catalyst-breadcrumbs-blank-content" name="catalyst[breadcrumbs_blank_content]" value="1" <?php if( checked( 1, catalyst_get_core( 'breadcrumbs_blank_content' ) ) ); ?> /> <?php _e( 'Breadcrumbs On Blank Content Template', 'catalyst' ); ?>
+						<input type="checkbox" id="catalyst-breadcrumbs-blank-content" name="catalyst[breadcrumbs_blank_content]" value="1" <?php if( checked( 1, catalyst_get_core( 'breadcrumbs_blank_content' ) ) ); ?> /> <?php _e( 'Breadcrumbs On Blank Content Template', 'catalyst' ); ?><br />
+						<input type="checkbox" id="catalyst-breadcrumbs-404" name="catalyst[breadcrumbs_404]" value="1" <?php if( checked( 1, catalyst_get_core( 'breadcrumbs_404' ) ) ); ?> /> <?php _e( 'Breadcrumbs On 404 Page', 'catalyst' ); ?><br />
 					</p>
 					
 					<p>
@@ -326,6 +339,10 @@
 					
 					<p>
 						<?php _e( 'Search Breadcrumbs Text', 'catalyst' ); ?> <input type="text" id="catalyst-breadcrumbs-text-search" name="catalyst[breadcrumbs_text_search]" value="<?php echo catalyst_get_core( 'breadcrumbs_text_search' ) ?>" style="width:186px;" />
+					</p>
+
+					<p>
+						<?php _e( '404 Breadcrumbs Text', 'catalyst' ); ?> <input type="text" id="catalyst-breadcrumbs-text-404" name="catalyst[breadcrumbs_text_404]" value="<?php echo catalyst_get_core( 'breadcrumbs_text_404' ) ?>" style="width:186px;" />
 					</p>
 					
 					<p>
@@ -438,6 +455,10 @@
 						
 						<p>
 							<?php _e( 'So just disable this feature if issues arise as a result of enabling it.', 'catalyst' ); ?>
+						</p>
+
+						<p>
+							<?php _e( '<strong>Please Note:</strong> Do not enable this feature if you are using a WordPress Caching Plugin like "W3 Total Cache" as this may cause conflicts.', 'dynamik' ); ?>
 						</p>
 							
 						<span class="tooltip-credit">

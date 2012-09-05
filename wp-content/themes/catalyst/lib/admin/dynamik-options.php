@@ -71,7 +71,7 @@ function catalyst_dynamik_options()
 		<h2 id="catalyst-admin-heading" style="width:310px;"><?php _e( 'Catalyst - Dynamik Options', 'catalyst' ); ?></h2>
 		
 		<div class="catalyst-css-builder-button-wrap" style="margin-right:10px;">
-			<span id="show-hide-dynamik-settings-button" class="show-hide-custom-css-builder-styles"><?php _e( 'Dynamik Settings', 'catalyst' ); ?></span>
+			<span id="show-hide-dynamik-settings-button" class="show-hide-custom-css-builder-styles"><?php _e( 'Additional Settings', 'catalyst' ); ?></span>
 		</div>
 		
 		<div class="catalyst-css-builder-button-wrap">
