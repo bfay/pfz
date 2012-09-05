@@ -1,0 +1,67 @@
+/* CSS file for aqua color scheme */
+#header {
+	background: #6ecbea;
+	border-bottom: 1px solid #309ec2;
+}
+#bger {
+	background: #1fb9ec;
+}
+
+.menu ul li a {
+	color:#0e6582;
+	text-decoration: none; 
+	text-shadow: 0 1px 0 #00deff;
+}
+.menu ul li:hover a {
+	color:#fff;
+	text-shadow: 0 1px 0 #000;
+}
+.menu ul li ul.children {  
+    background: #309ec2;
+}  
+.menu ul li ul.children li{   
+    border-bottom: 1px solid #1fb9ec; 
+}  
+
+#footer
+{
+	background: #6ecbea;
+}
+#footer
+{
+	color: #0e6582;
+}
+.widget-area ul li h3
+{
+	color: #0e6582;
+	text-shadow: 0 1px 0 #00deff;
+}
+.widget-area ul ul {
+	border: none;
+	margin-left: 1.3em;
+	padding: 0;
+}
+.widget-area ul li a
+{
+	color: #0e6582;
+	text-shadow: 0 1px 0 #00deff;
+}
+.widget-area ul li a:hover
+{
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+#below-footer
+{
+	background: #1fb9ec;
+	border-top: 1px solid #309ec2;
+}
+#below-footer .menu2 ul li a {
+	color:#fff;
+	text-shadow: 0 1px 0 #000;
+}
+#below-footer .menu2 ul li a:hover
+{
+	color:#0e6582;
+	text-shadow: 0 1px 0 #00deff;
+}

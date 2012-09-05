@@ -1,0 +1,26 @@
+/*
+	Theme Name: frugal
+	Theme URL: http://frugaltheme.com
+	Description: A flexible Wordpress framework theme with a unique minimalist style and full control on the backend.
+	Author: The Frugal Team
+	Author URI: http://frugaltheme.com
+	Version: 3.6
+	Tags: clean, fixed width, minimalist, framework, widgets, hooks, flexible
+	
+	Changelog:
+		3.0 - 11/20/09
+		3.1 - 12/07/09
+		3.15 - 12/21/09
+		3.2 - 01/25/10
+		3.25 - 02/09/10
+		3.3 - 03/30/10
+		3.5 - 04/28/10
+		3.5.5 - 06/23/10
+		3.6
+*/
+
+/* Reset Browser to CSS Defaults */
+@import url('lib/css/reset.css');
+
+/*** Apply Default Theme Styles ***/
+@import url('lib/css/default.css');

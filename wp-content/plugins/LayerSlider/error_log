@@ -1,0 +1,20 @@
+[08-Jul-2012 02:53:41] PHP Warning:  Invalid argument supplied for foreach() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/init.php on line 5
+[08-Jul-2012 09:03:37] PHP Fatal error:  Call to undefined function  _e() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/settings.php on line 352
+[08-Jul-2012 13:26:08] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[09-Jul-2012 00:27:26] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[09-Jul-2012 06:49:27] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[09-Jul-2012 13:19:23] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[22-Jul-2012 22:10:10] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[23-Jul-2012 08:54:35] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[23-Jul-2012 17:12:32] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[26-Jul-2012 04:19:33] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[26-Jul-2012 11:52:28] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[26-Jul-2012 22:00:37] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[27-Jul-2012 06:00:45] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[31-Jul-2012 14:11:26] PHP Warning:  Invalid argument supplied for foreach() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/init.php on line 5
+[08-Aug-2012 00:06:11] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[08-Aug-2012 07:38:28] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[08-Aug-2012 10:26:38] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[08-Aug-2012 17:02:00] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[09-Aug-2012 01:38:45] PHP Fatal error:  Call to undefined function  add_action() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/layerslider.php on line 21
+[31-Aug-2012 14:01:03] PHP Warning:  Invalid argument supplied for foreach() in /home1/mybride1/public_html/peanutfreezone.com/wp-content/plugins/LayerSlider/init.php on line 5

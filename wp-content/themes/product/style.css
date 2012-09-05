@@ -1,0 +1,27 @@
+/*
+
+Theme Name: Product
+Theme Date: 11/05/2010
+Version: 1.5
+Theme URI: http://premium.wpmudev.org/
+Description: Product is a clean modern theme designed to feature products and services
+Author: Tammie Lister at Logical Binary (Incsub)
+Author URI: http://www.logicalbinary.com/
+WPD ID: 132
+
+Tags: buddypress, one column, 3 columns, threaded comments, custom colours, theme options
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+/* buddypress only styling */
+@import url( _inc/css/bp-default.css );
+
+/* basic styling for all elements */
+@import url( _inc/css/layout.css );
+
+/* custom styling */
+@import url( _inc/css/custom.css );

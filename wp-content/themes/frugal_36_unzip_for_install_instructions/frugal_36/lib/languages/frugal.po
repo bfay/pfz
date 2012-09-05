@@ -1,0 +1,3510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Frugal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-11 17:43-0500\n"
+"PO-Revision-Date: 2010-09-11 17:43-0500\n"
+"Last-Translator: Cobalt Apps <cobalt@cobaltapps.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:34
+#: archive.php:36
+#: archives.php:37
+#: author.php:78
+#: blog.php:50
+#: cms_page.php:34
+#: cms_pagewide.php:22
+#: index.php:44
+#: page.php:35
+#: pagewide.php:22
+#: search.php:35
+msgid "Home"
+msgstr ""
+
+#: 404.php:40
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:41
+msgid "The page you are looking for is not here."
+msgstr ""
+
+#: 404.php:42
+msgid "Try a search or use the navigation to find the page or..."
+msgstr ""
+
+#: 404.php:43
+msgid "Return Home"
+msgstr ""
+
+#: archive.php:52
+#: blog.php:71
+#: index.php:61
+msgid "0 Comments"
+msgstr ""
+
+#: archive.php:52
+#: blog.php:71
+#: index.php:61
+msgid "1 Comment"
+msgstr ""
+
+#: archive.php:52
+#: blog.php:71
+#: index.php:61
+msgid "% Comments"
+msgstr ""
+
+#: archive.php:52
+#: archive.php:53
+#: blog.php:71
+#: blog.php:72
+#: functions.php:143
+#: index.php:61
+#: index.php:62
+#: search.php:53
+msgid "(Edit)"
+msgstr ""
+
+#: archive.php:113
+#: blog.php:135
+#: cms_page.php:51
+#: cms_pagewide.php:39
+#: index.php:125
+#: page.php:52
+#: pagewide.php:39
+#: search.php:61
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: archive.php:114
+#: blog.php:136
+#: index.php:126
+#: search.php:62
+msgid "&laquo; Previous Page"
+msgstr ""
+
+#: archive.php:114
+#: blog.php:136
+#: index.php:126
+#: search.php:62
+msgid "Next Page &raquo;"
+msgstr ""
+
+#: archives.php:49
+msgid "By Month:"
+msgstr ""
+
+#: archives.php:53
+msgid "By Category:"
+msgstr ""
+
+#: comments.php:14
+#: legacy.comments.php:25
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:14
+#: legacy.comments.php:25
+msgid "One Response"
+msgstr ""
+
+#: comments.php:14
+#: legacy.comments.php:25
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:14
+#: legacy.comments.php:25
+msgid "to"
+msgstr ""
+
+#: comments.php:15
+msgid "Comments"
+msgstr ""
+
+#: comments.php:16
+msgid "Read below or"
+msgstr ""
+
+#: comments.php:16
+msgid "add a comment..."
+msgstr ""
+
+#: comments.php:27
+#: legacy.comments.php:60
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:38
+#: legacy.comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:51
+#: legacy.comments.php:87
+msgid "You must be"
+msgstr ""
+
+#: comments.php:51
+#: legacy.comments.php:87
+msgid "logged in"
+msgstr ""
+
+#: comments.php:51
+#: legacy.comments.php:87
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:57
+#: legacy.comments.php:95
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:57
+msgid "."
+msgstr ""
+
+#: comments.php:57
+#: legacy.comments.php:95
+msgid "Log out"
+msgstr ""
+
+#: comments.php:61
+#: legacy.comments.php:100
+msgid "Name *"
+msgstr ""
+
+#: comments.php:64
+#: legacy.comments.php:103
+msgid "E-mail *"
+msgstr ""
+
+#: comments.php:67
+#: legacy.comments.php:106
+msgid "Website"
+msgstr ""
+
+#: functions.php:95
+msgid "<strong>PLEASE NOTE...</strong> Your dynamic CSS stylesheet located in <code>frugal_[version #]/lib/css/dynamic.css</code> is not writable. To enjoy frugal's robust design options you must either make this file writable by chaning its file permission to 666 or change the 'Dynamic Stylesheet Format' option to 'PHP' in the"
+msgstr ""
+
+#: functions.php:95
+msgid "Main Options"
+msgstr ""
+
+#: functions.php:95
+msgid "area."
+msgstr ""
+
+#: functions.php:135
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: functions.php:139
+#: legacy.comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:143
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:155
+#: functions.php:161
+msgid "RSS"
+msgstr ""
+
+#: functions.php:161
+msgid "|"
+msgstr ""
+
+#: functions.php:161
+msgid "Email"
+msgstr ""
+
+#: functions.php:167
+msgid "Twitter"
+msgstr ""
+
+#: functions.php:278
+msgid "Primary Navigation Menu"
+msgstr ""
+
+#: functions.php:279
+msgid "Secondary Navigation Menu"
+msgstr ""
+
+#: header.php:16
+msgid "RSS Feed"
+msgstr ""
+
+#: legacy.comments.php:36
+msgid "Says:"
+msgstr ""
+
+#: legacy.comments.php:42
+msgid "at"
+msgstr ""
+
+#: legacy.comments.php:42
+msgid "edit"
+msgstr ""
+
+#: search.php:40
+msgid "Search results for"
+msgstr ""
+
+#: single.php:67
+msgid "Tags:"
+msgstr ""
+
+#: lib/admin/content_design.php:10
+msgid "Content Design Options"
+msgstr ""
+
+#: lib/admin/content_design.php:15
+#: lib/admin/feature_design.php:15
+#: lib/admin/feature_options.php:15
+#: lib/admin/header_design.php:15
+#: lib/admin/main_options.php:14
+msgid "When using the CSS option below your frugal theme writes your current style selections to a CSS file so they can be easily cacheable by browsers (the PHP option utilizes caching as well, but in a different manor). Being able to view this file gives you a look at your current hard coded styles. I find this useful when troubleshooting styling issues among other things. Also, if you'd like to download this file for a hard copy of your current CSS settings you can just right-click the '<i>DYNAMIC</i> STYLES' like and then left-click 'Save link as...' and then click 'save'."
+msgstr ""
+
+#: lib/admin/content_design.php:15
+#: lib/admin/feature_design.php:15
+#: lib/admin/feature_options.php:15
+#: lib/admin/header_design.php:15
+#: lib/admin/main_options.php:14
+msgid "SAVE"
+msgstr ""
+
+#: lib/admin/content_design.php:23
+#: lib/admin/feature_design.php:23
+#: lib/admin/feature_options.php:23
+#: lib/admin/header_design.php:23
+#: lib/admin/main_options.php:22
+msgid "has been Updated!"
+msgstr ""
+
+#: lib/admin/content_design.php:23
+#: lib/admin/feature_design.php:23
+#: lib/admin/feature_options.php:23
+#: lib/admin/header_design.php:23
+#: lib/admin/main_options.php:22
+msgid "View Site"
+msgstr ""
+
+#: lib/admin/feature_design.php:10
+msgid "Feature Design Options"
+msgstr ""
+
+#: lib/admin/feature_options.php:10
+#: lib/admin/frugal_menu.php:17
+msgid "Feature Options"
+msgstr ""
+
+#: lib/admin/frugal_menu.php:15
+msgid "Settings/Uploads"
+msgstr ""
+
+#: lib/admin/frugal_menu.php:18
+msgid "Header Design"
+msgstr ""
+
+#: lib/admin/frugal_menu.php:19
+msgid "Content Design"
+msgstr ""
+
+#: lib/admin/frugal_menu.php:20
+msgid "Feature Design"
+msgstr ""
+
+#: lib/admin/header_design.php:10
+msgid "Header Design Options"
+msgstr ""
+
+#: lib/admin/image_uploader.php:167
+msgid "Your image has been uploaded."
+msgstr ""
+
+#: lib/admin/image_uploader.php:172
+msgid "A file with this name already exists."
+msgstr ""
+
+#: lib/admin/image_uploader.php:181
+msgid "This is not a valid filetype.  Valid filetypes are JPG, GIF and .PNG."
+msgstr ""
+
+#: lib/admin/image_uploader.php:217
+msgid "Filename:"
+msgstr ""
+
+#: lib/admin/image_uploader.php:219
+msgid "Width:"
+msgstr ""
+
+#: lib/admin/image_uploader.php:221
+msgid "Height:"
+msgstr ""
+
+#: lib/admin/image_uploader.php:223
+msgid "Filesize:"
+msgstr ""
+
+#: lib/admin/image_uploader.php:226
+msgid "Select this image for Bulk Delete"
+msgstr ""
+
+#: lib/admin/image_uploader.php:228
+#: lib/admin/image_uploader.php:275
+#: lib/admin/image_uploader.php:302
+#: lib/admin/image_uploader.php:317
+#: lib/admin/image_uploader.php:327
+msgid "Rename Image"
+msgstr ""
+
+#: lib/admin/image_uploader.php:229
+#: lib/admin/image_uploader.php:343
+#: lib/admin/image_uploader.php:383
+#: lib/admin/image_uploader.php:398
+#: lib/admin/image_uploader.php:408
+msgid "Delete Image"
+msgstr ""
+
+#: lib/admin/image_uploader.php:256
+msgid "Upload Options"
+msgstr ""
+
+#: lib/admin/image_uploader.php:257
+msgid "Resize Image?"
+msgstr ""
+
+#: lib/admin/image_uploader.php:257
+msgid "Will only resize image if larger than custom width below."
+msgstr ""
+
+#: lib/admin/image_uploader.php:258
+msgid "Image Width (in pixels)"
+msgstr ""
+
+#: lib/admin/image_uploader.php:277
+msgid "Current Filename:"
+msgstr ""
+
+#: lib/admin/image_uploader.php:279
+msgid "Rename to:"
+msgstr ""
+
+#: lib/admin/image_uploader.php:282
+#: lib/admin/image_uploader.php:348
+msgid "Cancel"
+msgstr ""
+
+#: lib/admin/image_uploader.php:304
+#: lib/admin/image_uploader.php:329
+#: lib/admin/image_uploader.php:385
+#: lib/admin/image_uploader.php:410
+msgid "You did not supply a filename."
+msgstr ""
+
+#: lib/admin/image_uploader.php:305
+#: lib/admin/image_uploader.php:320
+#: lib/admin/image_uploader.php:330
+#: lib/admin/image_uploader.php:386
+#: lib/admin/image_uploader.php:401
+#: lib/admin/image_uploader.php:411
+msgid "OK"
+msgstr ""
+
+#: lib/admin/image_uploader.php:319
+msgid "has been successfully renamed to"
+msgstr ""
+
+#: lib/admin/image_uploader.php:345
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: lib/admin/image_uploader.php:400
+msgid "has been successfully deleted."
+msgstr ""
+
+#: lib/admin/upload_options.php:21
+msgid "has encountered an error. Only .zip files can be imported. Please try again."
+msgstr ""
+
+#: lib/admin/upload_options.php:34
+msgid "IMAGE UPLOAD OPTIONS: Images are uploaded to the <code>/wp-content/uploads/frugal/</code> directory."
+msgstr ""
+
+#: lib/admin/upload_options.php:34
+msgid "Here you can upload images from your computer and store them in your /wp-content/uploads/frugal/ directory. The 'Upload Options' allows you to resize your images upon upload. This option is not intended to be used for gallery images and the like. Use this for images that pertain to the design of your website like backgrounds, buttons, logos and Skins."
+msgstr ""
+
+#: lib/admin/upload_options.php:34
+msgid "More Info"
+msgstr ""
+
+#: lib/admin/upload_options.php:49
+msgid "Please wait, uploading image."
+msgstr ""
+
+#: lib/admin/upload_options.php:76
+msgid "Deselect All"
+msgstr ""
+
+#: lib/admin/upload_options.php:77
+msgid "Select All"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:1
+msgid "Blockquote Design"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:3
+#: lib/admin/boxes/comment_design.php:5
+#: lib/admin/boxes/comment_design.php:32
+#: lib/admin/boxes/content_column_design.php:4
+msgid "Background (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:5
+#: lib/admin/boxes/category_navbar_backgrounds.php:5
+#: lib/admin/boxes/category_navbar_backgrounds.php:13
+#: lib/admin/boxes/category_navbar_backgrounds.php:21
+#: lib/admin/boxes/comment_design.php:7
+#: lib/admin/boxes/comment_design.php:34
+#: lib/admin/boxes/content_column_design.php:6
+#: lib/admin/boxes/content_column_design.php:17
+#: lib/admin/boxes/content_column_design.php:28
+msgid "Transparent"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:6
+#: lib/admin/boxes/blockquote_design.php:25
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:12
+#: lib/admin/boxes/byline_meta_fonts.php:12
+#: lib/admin/boxes/category_navbar_backgrounds.php:6
+#: lib/admin/boxes/category_navbar_backgrounds.php:14
+#: lib/admin/boxes/category_navbar_backgrounds.php:22
+#: lib/admin/boxes/category_navbar_backgrounds.php:29
+#: lib/admin/boxes/category_navbar_backgrounds.php:36
+#: lib/admin/boxes/category_navbar_fonts.php:23
+#: lib/admin/boxes/category_navbar_fonts.php:30
+#: lib/admin/boxes/category_navbar_right_design.php:12
+#: lib/admin/boxes/comment_design.php:8
+#: lib/admin/boxes/comment_design.php:30
+#: lib/admin/boxes/comment_design.php:35
+#: lib/admin/boxes/comment_fonts.php:20
+#: lib/admin/boxes/comment_meta_fonts.php:12
+#: lib/admin/boxes/content_column_design.php:7
+#: lib/admin/boxes/content_column_design.php:18
+#: lib/admin/boxes/content_column_design.php:29
+#: lib/admin/boxes/content_column_design.php:44
+#: lib/admin/boxes/content_column_design.php:47
+msgid "Color"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:7
+#: lib/admin/boxes/category_navbar_backgrounds.php:7
+#: lib/admin/boxes/category_navbar_backgrounds.php:15
+#: lib/admin/boxes/category_navbar_backgrounds.php:23
+#: lib/admin/boxes/category_navbar_backgrounds.php:30
+#: lib/admin/boxes/category_navbar_backgrounds.php:37
+#: lib/admin/boxes/comment_design.php:9
+#: lib/admin/boxes/comment_design.php:36
+#: lib/admin/boxes/content_column_design.php:8
+#: lib/admin/boxes/content_column_design.php:19
+#: lib/admin/boxes/content_column_design.php:30
+msgid "No-Repeat Image"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:8
+#: lib/admin/boxes/category_navbar_backgrounds.php:8
+#: lib/admin/boxes/category_navbar_backgrounds.php:16
+#: lib/admin/boxes/category_navbar_backgrounds.php:24
+#: lib/admin/boxes/category_navbar_backgrounds.php:31
+#: lib/admin/boxes/category_navbar_backgrounds.php:38
+#: lib/admin/boxes/comment_design.php:10
+#: lib/admin/boxes/comment_design.php:37
+#: lib/admin/boxes/content_column_design.php:9
+#: lib/admin/boxes/content_column_design.php:20
+#: lib/admin/boxes/content_column_design.php:31
+msgid "Horizontal-Repeat Image"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:9
+#: lib/admin/boxes/comment_design.php:11
+#: lib/admin/boxes/content_column_design.php:10
+#: lib/admin/boxes/content_column_design.php:21
+#: lib/admin/boxes/content_column_design.php:32
+msgid "Vertical-Repeat Image"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:10
+#: lib/admin/boxes/comment_design.php:12
+#: lib/admin/boxes/content_column_design.php:11
+#: lib/admin/boxes/content_column_design.php:22
+#: lib/admin/boxes/content_column_design.php:33
+msgid "Horizontal & Vertical-Repeat Image"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:12
+#: lib/admin/boxes/category_navbar_backgrounds.php:10
+#: lib/admin/boxes/category_navbar_backgrounds.php:18
+#: lib/admin/boxes/category_navbar_backgrounds.php:26
+#: lib/admin/boxes/category_navbar_backgrounds.php:33
+#: lib/admin/boxes/category_navbar_backgrounds.php:40
+#: lib/admin/boxes/comment_design.php:14
+#: lib/admin/boxes/comment_design.php:39
+#: lib/admin/boxes/content_column_design.php:13
+#: lib/admin/boxes/content_column_design.php:24
+#: lib/admin/boxes/content_column_design.php:35
+msgid "Image Name"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:13
+#: lib/admin/boxes/content_column_design.php:36
+msgid "Border Options..."
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:14
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:3
+#: lib/admin/boxes/byline_meta_fonts.php:3
+#: lib/admin/boxes/category_navbar_fonts.php:3
+#: lib/admin/boxes/category_navbar_right_design.php:4
+#: lib/admin/boxes/comment_design.php:19
+#: lib/admin/boxes/comment_fonts.php:12
+#: lib/admin/boxes/comment_meta_fonts.php:4
+msgid "Type"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:15
+#: lib/admin/boxes/category_navbar_margins_borders.php:5
+#: lib/admin/boxes/category_navbar_margins_borders.php:8
+msgid "Top/Bottom"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:16
+msgid "Full"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:18
+#: lib/admin/boxes/content_column_design.php:37
+msgid "Style"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:19
+#: lib/admin/boxes/content_column_design.php:38
+msgid "solid"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:20
+#: lib/admin/boxes/content_column_design.php:39
+msgid "dotted"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:21
+#: lib/admin/boxes/content_column_design.php:40
+msgid "dashed"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:22
+#: lib/admin/boxes/content_column_design.php:41
+msgid "double"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:23
+#: lib/admin/boxes/content_column_design.php:42
+msgid "A 'double' border style requires a border thickness greater than 2px. Just thought we'd let you know. :)"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:24
+#: lib/admin/boxes/content_column_design.php:43
+#: lib/admin/boxes/content_column_design.php:46
+msgid "Thickness"
+msgstr ""
+
+#: lib/admin/boxes/blockquote_design.php:24
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:11
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:28
+#: lib/admin/boxes/byline_meta_fonts.php:8
+#: lib/admin/boxes/category_navbar_fonts.php:8
+#: lib/admin/boxes/category_navbar_fonts.php:22
+#: lib/admin/boxes/category_navbar_margins_borders.php:3
+#: lib/admin/boxes/category_navbar_margins_borders.php:5
+#: lib/admin/boxes/category_navbar_margins_borders.php:6
+#: lib/admin/boxes/category_navbar_margins_borders.php:8
+#: lib/admin/boxes/category_navbar_margins_borders.php:9
+#: lib/admin/boxes/category_navbar_margins_borders.php:11
+#: lib/admin/boxes/category_navbar_margins_borders.php:12
+#: lib/admin/boxes/category_navbar_margins_borders.php:13
+#: lib/admin/boxes/category_navbar_margins_borders.php:14
+#: lib/admin/boxes/category_navbar_right_design.php:9
+#: lib/admin/boxes/category_navbar_right_design.php:20
+#: lib/admin/boxes/category_navbar_right_design.php:21
+#: lib/admin/boxes/category_navbar_right_design.php:22
+#: lib/admin/boxes/category_navbar_right_design.php:23
+#: lib/admin/boxes/cms_page_template_options.php:9
+#: lib/admin/boxes/cms_page_template_options.php:10
+#: lib/admin/boxes/comment_design.php:3
+#: lib/admin/boxes/comment_design.php:17
+#: lib/admin/boxes/comment_design.php:24
+#: lib/admin/boxes/comment_fonts.php:17
+#: lib/admin/boxes/comment_meta_fonts.php:9
+#: lib/admin/boxes/comment_options.php:13
+#: lib/admin/boxes/content_column_design.php:3
+#: lib/admin/boxes/content_column_design.php:43
+#: lib/admin/boxes/content_column_design.php:46
+msgid "px"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:1
+msgid "Bottom Widgets Heading Fonts"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:9
+#: lib/admin/boxes/byline_meta_fonts.php:9
+#: lib/admin/boxes/category_navbar_fonts.php:9
+#: lib/admin/boxes/category_navbar_right_design.php:10
+#: lib/admin/boxes/comment_design.php:25
+#: lib/admin/boxes/comment_fonts.php:9
+#: lib/admin/boxes/comment_fonts.php:18
+#: lib/admin/boxes/comment_meta_fonts.php:10
+msgid "Custom Font"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:9
+#: lib/admin/boxes/byline_meta_fonts.php:9
+#: lib/admin/boxes/category_navbar_fonts.php:9
+#: lib/admin/boxes/category_navbar_right_design.php:10
+#: lib/admin/boxes/comment_design.php:25
+#: lib/admin/boxes/comment_fonts.php:9
+#: lib/admin/boxes/comment_fonts.php:18
+#: lib/admin/boxes/comment_meta_fonts.php:10
+msgid "To use this Custom Font option you just need to add the CSS font text to the text area below (example: Georgia, serif) and then click 'SAVE'."
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:11
+#: lib/admin/boxes/byline_meta_fonts.php:8
+#: lib/admin/boxes/category_navbar_fonts.php:8
+#: lib/admin/boxes/category_navbar_right_design.php:9
+#: lib/admin/boxes/comment_design.php:24
+#: lib/admin/boxes/comment_fonts.php:17
+#: lib/admin/boxes/comment_meta_fonts.php:9
+msgid "Size"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:13
+#: lib/admin/boxes/category_navbar_fonts.php:19
+#: lib/admin/boxes/comment_design.php:27
+msgid "Weight"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:14
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:25
+#: lib/admin/boxes/category_navbar_fonts.php:16
+#: lib/admin/boxes/category_navbar_fonts.php:20
+#: lib/admin/boxes/comment_design.php:29
+msgid "normal"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:15
+#: lib/admin/boxes/category_navbar_fonts.php:21
+#: lib/admin/boxes/comment_design.php:28
+msgid "bold"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:16
+msgid "Alignment"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:17
+msgid "center"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:18
+msgid "left"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:20
+#: lib/admin/boxes/category_navbar_fonts.php:11
+msgid "Caps"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:21
+#: lib/admin/boxes/category_navbar_fonts.php:12
+msgid "none"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:22
+#: lib/admin/boxes/category_navbar_fonts.php:13
+msgid "uppercase"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:23
+#: lib/admin/boxes/category_navbar_fonts.php:14
+msgid "lowercase"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:24
+#: lib/admin/boxes/category_navbar_fonts.php:15
+msgid "Variant"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:26
+#: lib/admin/boxes/category_navbar_fonts.php:17
+msgid "small-caps"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:28
+#: lib/admin/boxes/category_navbar_fonts.php:22
+msgid "Letter Spacing"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:29
+#: lib/admin/boxes/byline_meta_fonts.php:11
+msgid "Line Height"
+msgstr ""
+
+#: lib/admin/boxes/bottom_widgets_heading_fonts.php:29
+#: lib/admin/boxes/byline_meta_fonts.php:11
+msgid "%"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:1
+msgid "Byline Meta Fonts"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:13
+#: lib/admin/boxes/comment_fonts.php:21
+msgid "Link"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:14
+msgid "Link Hover"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:15
+#: lib/admin/boxes/category_navbar_right_design.php:14
+#: lib/admin/boxes/comment_fonts.php:22
+#: lib/admin/boxes/comment_meta_fonts.php:14
+msgid "Hyperlink Underline"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:16
+#: lib/admin/boxes/category_navbar_right_design.php:15
+#: lib/admin/boxes/comment_fonts.php:23
+#: lib/admin/boxes/comment_meta_fonts.php:15
+msgid "On Hover"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:17
+#: lib/admin/boxes/category_navbar_right_design.php:16
+#: lib/admin/boxes/comment_fonts.php:24
+#: lib/admin/boxes/comment_meta_fonts.php:16
+msgid "Off Hover"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:18
+#: lib/admin/boxes/category_navbar_right_design.php:17
+#: lib/admin/boxes/comment_fonts.php:25
+#: lib/admin/boxes/comment_meta_fonts.php:17
+msgid "Always"
+msgstr ""
+
+#: lib/admin/boxes/byline_meta_fonts.php:19
+#: lib/admin/boxes/category_navbar_right_design.php:18
+#: lib/admin/boxes/comment_fonts.php:26
+#: lib/admin/boxes/comment_meta_fonts.php:18
+msgid "Never"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_backgrounds.php:1
+msgid "Secondary Navbar Backgrounds"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_backgrounds.php:3
+msgid "Main"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_backgrounds.php:11
+msgid "Page"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_backgrounds.php:19
+msgid "Page Hover"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_backgrounds.php:27
+#: lib/admin/boxes/category_navbar_margins_borders.php:19
+msgid "Sub-Page"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_backgrounds.php:34
+msgid "Sub-Page Hover"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_fonts.php:1
+msgid "Secondary Navbar Fonts"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_fonts.php:24
+#: lib/admin/boxes/category_navbar_fonts.php:31
+#: lib/admin/boxes/category_navbar_right_design.php:13
+#: lib/admin/boxes/comment_meta_fonts.php:13
+msgid "Hover"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_fonts.php:25
+msgid "Text Hover Underline"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_fonts.php:26
+#: lib/admin/boxes/comment_options.php:12
+msgid "Yes"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_fonts.php:27
+#: lib/admin/boxes/comment_options.php:11
+msgid "No"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_fonts.php:29
+msgid "Sub-Page Font..."
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:1
+msgid "Secondary Navbar Margins/Borders"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:3
+msgid "Left Margin Thickness"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:3
+msgid "If you'd like to center your Secondary Navbar pages in your Secondary Navbar area you can increase this number until you achieve your desired result. Note: This option is deactivated when your Secondary Navbar is set to display above your header and your navbar is set to fluid width."
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:4
+msgid "Page Padding Thickness..."
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:6
+#: lib/admin/boxes/category_navbar_margins_borders.php:9
+msgid "Left/Right"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:7
+msgid "Sub-Page Padding Thickness..."
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:10
+msgid "Border Thickness..."
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:11
+#: lib/admin/boxes/category_navbar_margins_borders.php:16
+msgid "Top"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:12
+#: lib/admin/boxes/category_navbar_margins_borders.php:17
+msgid "Bottom"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:13
+#: lib/admin/boxes/category_navbar_margins_borders.php:18
+#: lib/admin/boxes/category_page_excerpts.php:7
+#: lib/admin/boxes/category_page_excerpts.php:10
+#: lib/admin/boxes/category_page_excerpts.php:14
+#: lib/admin/boxes/category_page_excerpts.php:17
+msgid "Right"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:14
+msgid "Sub-Page Box Width"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_margins_borders.php:15
+msgid "Border Colors..."
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_right_design.php:1
+msgid "Secondary Navbar Right Design"
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_right_design.php:3
+msgid "Font Options..."
+msgstr ""
+
+#: lib/admin/boxes/category_navbar_right_design.php:20
+msgid "Padding"
+msgstr ""
+
+#: lib/admin/boxes/category_page_excerpts.php:1
+msgid "Category/Page Excerpts"
+msgstr ""
+
+#: lib/admin/boxes/category_page_excerpts.php:3
+msgid "Choose which categories and/or page to feature in your static homepage excerpts. (requires use of the <b>Category Post Excerpts</b> or <b>Page Excerpts</b> option above)"
+msgstr ""
+
+#: lib/admin/boxes/category_page_excerpts.php:4
+msgid "Home Top..."
+msgstr ""
+
+#: lib/admin/boxes/category_page_excerpts.php:5
+#: lib/admin/boxes/category_page_excerpts.php:8
+#: lib/admin/boxes/category_page_excerpts.php:12
+#: lib/admin/boxes/category_page_excerpts.php:15
+msgid "Left"
+msgstr ""
+
+#: lib/admin/boxes/category_page_excerpts.php:6
+#: lib/admin/boxes/category_page_excerpts.php:9
+#: lib/admin/boxes/category_page_excerpts.php:13
+#: lib/admin/boxes/category_page_excerpts.php:16
+msgid "Middle"
+msgstr ""
+
+#: lib/admin/boxes/category_page_excerpts.php:11
+msgid "Home Bottom..."
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:1
+msgid "Cat/Navbar Right Options Text"
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:4
+msgid "Navbar Right Subscribe Text"
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:6
+msgid "Text that precedes the navbar right Subscribe link."
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:7
+msgid "Navbar Right Twitter Text"
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:9
+msgid "Text that precedes the navbar right Twitter link."
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:10
+msgid "Navbar Right Text"
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:12
+msgid "When using the 'Text' Navbar Right Layout option."
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:13
+msgid "CatNav Right Text"
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:15
+msgid "When using the 'Text' CatNav Right Layout option."
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:16
+msgid "Search Shortcode:</b> <code>[search]</code>"
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:16
+msgid "Copy this shortcode (ie. [search]) anywhere you want your Search Box displayed. For example, if you want it to display in your sidebar you can paste [search] into a 'Text' widet and it will display in that location of your sidebar (you can do this in any widget area as well)."
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:17
+msgid "Search Box Text"
+msgstr ""
+
+#: lib/admin/boxes/cat_navbar_right_options.php:19
+msgid "Displays inside the Navbar Right Search box."
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:1
+msgid "CMS Page Template Options"
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:3
+msgid "CMS Layout Options"
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:3
+msgid "Use these options to customize your pages that use the CMS Page Template. frugal is all about CMS! :-)"
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:5
+msgid "Right Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:6
+msgid "Left Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:7
+msgid "Double Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:9
+msgid "CMS Sidebar 1 Width"
+msgstr ""
+
+#: lib/admin/boxes/cms_page_template_options.php:10
+msgid "CMS Sidebar 2 Width"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:1
+msgid "Comment Design"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:3
+msgid "Comment Box Width"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:3
+msgid "Leave blank for a width of 100%. Try not to give it a width greater than that of your Content Column."
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:4
+msgid "Comment Box Colors..."
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:15
+#: lib/admin/boxes/comment_design.php:40
+msgid "Border"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:16
+msgid "Text"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:17
+msgid "Submit Button Width"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:18
+msgid "Submit Button Font Options..."
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:31
+msgid "Submit Button Design..."
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:41
+msgid "Misc Comment Colors..."
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:42
+msgid "Alternating Background"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:43
+msgid "Reply Alternating Background"
+msgstr ""
+
+#: lib/admin/boxes/comment_design.php:44
+msgid "Comment List Border"
+msgstr ""
+
+#: lib/admin/boxes/comment_fonts.php:1
+msgid "Comment Fonts"
+msgstr ""
+
+#: lib/admin/boxes/comment_fonts.php:3
+msgid "Main Font"
+msgstr ""
+
+#: lib/admin/boxes/comment_fonts.php:8
+msgid "Covers everything BUT the content of the commenter."
+msgstr ""
+
+#: lib/admin/boxes/comment_fonts.php:11
+msgid "Commenter Font Options..."
+msgstr ""
+
+#: lib/admin/boxes/comment_meta_fonts.php:1
+msgid "Comment Meta Fonts"
+msgstr ""
+
+#: lib/admin/boxes/comment_meta_fonts.php:3
+msgid "Comment/View All Posts/Previous-Next"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:1
+msgid "Comment Options"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:3
+msgid "Comment Display Location"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:5
+msgid "Posts"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:6
+msgid "Pages"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:7
+msgid "Posts AND Pages"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:8
+msgid "Remove Comments"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:10
+msgid "Determine whether or not to display post trackbacks in your comments section."
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:13
+msgid "Avatar Size"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:14
+msgid "Text Above Comment Box"
+msgstr ""
+
+#: lib/admin/boxes/comment_options.php:16
+msgid "Submit Button Text"
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:1
+msgid "Content Column Design"
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:3
+msgid "Top/Bottom Margin Thickness"
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:3
+msgid "This can be especially useful when adding a border to this content area as it can allow space to be added between the top/bottom borders and the rest of the site boundaries."
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:14
+msgid "CMS Page BG (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:14
+msgid "Does not include the CMS Full Width Page content column."
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:16
+#: lib/admin/boxes/content_column_design.php:27
+msgid "Inherit Content Column"
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:25
+msgid "Wide Page BG (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:25
+msgid "Includes the CMS Full Width Page content column."
+msgstr ""
+
+#: lib/admin/boxes/content_column_design.php:45
+msgid "Post Bottom Border..."
+msgstr ""
+
+#: lib/admin/boxes/content_column_fonts.php:1
+msgid "Content Column Fonts"
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:1
+msgid "Content Column Title Fonts"
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:3
+msgid "Post/Page Title Fonts (H1/H2)..."
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:12
+msgid "Size (h1)"
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:13
+msgid "Size (h2)"
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:14
+msgid "(h1) Color"
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:16
+msgid "(h2) Color"
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:41
+msgid "Sub-Headline Fonts (H3/H4)..."
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:50
+msgid "Size (h3)"
+msgstr ""
+
+#: lib/admin/boxes/content_column_title_fonts.php:51
+msgid "Size (h4)"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:1
+msgid "Content Options"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:6
+msgid "Activate Custom Stylesheet"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:6
+msgid "Your custom stylesheet (custom.css) is located in the root of your frugal theme directory and therefore can be edited via the built-in Wordpress Editor. These styles override all other site styles."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:10
+msgid "Activate Breadcrumbs"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:10
+msgid "These are breadcrumb links which display just above post and page titles."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:11
+msgid "Archive Content Layout"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:12
+#: lib/admin/boxes/content_options.php:20
+msgid "Excerpt"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:13
+#: lib/admin/boxes/content_options.php:21
+msgid "Full Content"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:14
+msgid "Determines how much content is revealed in archived pages such as Categories, Tags, etc.."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:15
+msgid "Thumbnails In Archive Excerpts"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:18
+msgid "This only applies when using the 'Excerpt' option for Archive content."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:19
+msgid "Blog Content Layout"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:22
+msgid "Determines how much content is revealed when using the Blog Page Template."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:23
+msgid "Thumbnails In Blog Excerpts"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:26
+msgid "This only applies when using the 'Excerpt' option for Blog Page content."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:27
+msgid "Post Byline Meta Content to display..."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:27
+msgid "Decide what you want displayed in your byline area of your posts."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:28
+msgid "Author"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:31
+msgid "Date"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:35
+msgid "Comment #"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:38
+msgid "Categories"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:42
+msgid "Comment # Below Posts"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:46
+msgid "Comment Text Below Posts"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:46
+msgid "This text only displays when there are zero comments."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:48
+msgid "Read More Text"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:48
+msgid "Covers every instance of Read More text."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:51
+msgid "Tags Below Single Posts"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:55
+msgid "Text Before Author"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:56
+msgid "Text Before Date"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:57
+msgid "Text Before Categories"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:58
+msgid "Byline Top Margin"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:58
+msgid "This setting allows you to increase or decrease the space between your post's title and the byline. The reason it's a margin setting and not a padding setting is because I use a negative number to push it up closer to the title in spite of the title's line-height. If this were a padding setting the negative number would not work."
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:59
+msgid "Byline Bottom Padding"
+msgstr ""
+
+#: lib/admin/boxes/content_options.php:59
+msgid "This setting allows you to increase or decrease the space between your post's title/byline area and the beginning of your content."
+msgstr ""
+
+#: lib/admin/boxes/custom_function_1.php:1
+msgid "Custom Function 1"
+msgstr ""
+
+#: lib/admin/boxes/custom_function_1.php:3
+#: lib/admin/boxes/custom_function_2.php:3
+msgid ""
+"Create your custom functions by adding code below |\n"
+"\tExecute PHP In This Code?"
+msgstr ""
+
+#: lib/admin/boxes/custom_function_1.php:9
+#: lib/admin/boxes/custom_function_2.php:9
+msgid "Hook your new function into a location"
+msgstr ""
+
+#: lib/admin/boxes/custom_function_2.php:1
+msgid "Custom Function 2"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:1
+msgid "Custom Widget 1 Options"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:1
+msgid "Copy this shortcode (ie. [cw1]) anywhere you want this custom widget to display. For example, if you want it to display in a page you can paste [cw1] anywhere in the page and it will display on that page. Requires 'Embed' or 'Both' Action to be selected."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:3
+#: lib/admin/boxes/custom_widget_2.php:3
+#: lib/admin/boxes/custom_widget_3.php:3
+msgid "Action"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:4
+#: lib/admin/boxes/custom_widget_2.php:4
+#: lib/admin/boxes/custom_widget_3.php:4
+msgid "off"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:5
+#: lib/admin/boxes/custom_widget_2.php:5
+#: lib/admin/boxes/custom_widget_3.php:5
+msgid "Hook"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:6
+#: lib/admin/boxes/custom_widget_2.php:6
+#: lib/admin/boxes/custom_widget_3.php:6
+msgid "Embed"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:7
+#: lib/admin/boxes/custom_widget_2.php:7
+#: lib/admin/boxes/custom_widget_3.php:7
+msgid "Both"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:8
+#: lib/admin/boxes/custom_widget_2.php:8
+#: lib/admin/boxes/custom_widget_3.php:8
+msgid "You can activate this custom widget by either choosing Hook (allows you to hook it into different parts of your site), Embed (using the shortcode you can embed this widget into specific posts and/or pages) or Both."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:9
+#: lib/admin/boxes/custom_widget_2.php:9
+#: lib/admin/boxes/custom_widget_3.php:9
+msgid "Float"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:11
+#: lib/admin/boxes/custom_widget_2.php:11
+#: lib/admin/boxes/custom_widget_3.php:11
+msgid "right"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:13
+#: lib/admin/boxes/custom_widget_2.php:13
+#: lib/admin/boxes/custom_widget_3.php:13
+msgid "Width"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:13
+#: lib/admin/boxes/custom_widget_2.php:13
+#: lib/admin/boxes/custom_widget_3.php:13
+msgid "Leave 'Width' blank for FULL width."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:14
+#: lib/admin/boxes/custom_widget_2.php:14
+#: lib/admin/boxes/custom_widget_3.php:14
+msgid "Height"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:14
+#: lib/admin/boxes/custom_widget_2.php:14
+#: lib/admin/boxes/custom_widget_3.php:14
+msgid "Leave 'Height' blank for fluid height."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:15
+#: lib/admin/boxes/custom_widget_2.php:15
+#: lib/admin/boxes/custom_widget_3.php:15
+msgid "Name"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:16
+#: lib/admin/boxes/custom_widget_2.php:16
+#: lib/admin/boxes/custom_widget_3.php:16
+msgid "Margin"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1.php:24
+#: lib/admin/boxes/custom_widget_2.php:24
+#: lib/admin/boxes/custom_widget_3.php:24
+msgid "Location"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_content_fonts.php:1
+msgid "Custom Widget 1 Content Fonts"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_content_fonts.php:1
+#: lib/admin/boxes/custom_widget_2_content_fonts.php:1
+#: lib/admin/boxes/custom_widget_3_content_fonts.php:1
+msgid "If using a 'Text' widget with this custom widget you may need to wrap your 'Text' widget content in paragraph HTML tags to enable your font options to take effect."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_design.php:1
+msgid "Custom Widget 1 Design"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_design.php:7
+#: lib/admin/boxes/custom_widget_2_design.php:7
+#: lib/admin/boxes/custom_widget_3_design.php:7
+msgid "No-Repeat Image (Left)"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_design.php:8
+#: lib/admin/boxes/custom_widget_2_design.php:8
+#: lib/admin/boxes/custom_widget_3_design.php:8
+msgid "No-Repeat Image (Center)"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_design.php:14
+#: lib/admin/boxes/custom_widget_3_design.php:14
+msgid "Display: block"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_design.php:17
+#: lib/admin/boxes/custom_widget_2_design.php:17
+#: lib/admin/boxes/custom_widget_3_design.php:17
+msgid "This is a CSS style option (display:block;). It is good to use when the area in question houses a single image that fills the space. Without it you may find 5px's of unwanted padding below the content area."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_design.php:18
+#: lib/admin/boxes/custom_widget_2_design.php:18
+#: lib/admin/boxes/custom_widget_3_design.php:18
+msgid "Border..."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_1_headline_fonts.php:1
+msgid "Custom Widget 1 Headline Fonts"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_2.php:1
+msgid "Custom Widget 2 Options"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_2.php:1
+msgid "Copy this shortcode (ie. [cw2]) anywhere you want this custom widget to display. For example, if you want it to display in a page you can paste [cw2] anywhere in the page and it will display on that page. Requires 'Embed' or 'Both' Action to be selected."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_2_content_fonts.php:1
+msgid "Custom Widget 2 Content Fonts"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_2_design.php:1
+msgid "Custom Widget 2 Design"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_2_design.php:14
+msgid ">Display: block"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_2_headline_fonts.php:1
+msgid "Custom Widget 2 Headline Fonts"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_3.php:1
+msgid "Custom Widget 3 Options"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_3.php:1
+msgid "Copy this shortcode (ie. [cw3]) anywhere you want this custom widget to display. For example, if you want it to display in a page you can paste [cw3] anywhere in the page and it will display on that page. Requires 'Embed' or 'Both' Action to be selected."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_3_content_fonts.php:1
+msgid "Custom Widget 3 Content Fonts"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_3_design.php:1
+msgid "Custom Widget 3 Design"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_3_headline_fonts.php:1
+msgid "Custom Widget 3 Headline Fonts"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_4.php:1
+msgid "Custom Widget 4 Options"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_4.php:1
+msgid "Copy this shortcode (ie. [cw4]) anywhere you want this custom widget to display. For example, if you want it to display in a page you can paste [cw4] anywhere in the page and it will display on that page. Requires 'Embed' or 'Both' Action to be selected."
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_4_content_fonts.php:1
+msgid "Custom Widget 4 Content Fonts"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_4_design.php:1
+msgid "Custom Widget 4 Design"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_4_design.php:3
+msgid "Background (Type - Color - Name"
+msgstr ""
+
+#: lib/admin/boxes/custom_widget_4_headline_fonts.php:1
+msgid "Custom Widget 4 Headline Fonts"
+msgstr ""
+
+#: lib/admin/boxes/featured_post_byline.php:1
+msgid "Featured Post Byline Content"
+msgstr ""
+
+#: lib/admin/boxes/featured_post_byline.php:3
+msgid "Content to display..."
+msgstr ""
+
+#: lib/admin/boxes/featured_post_byline.php:18
+msgid "Comment # Below Post"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:1
+msgid "Feature Bottom Display Options"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:3
+msgid "Which Pages to display feature bottom..."
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:7
+#: lib/admin/boxes/feature_top_display.php:7
+msgid "Static Homepage"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:11
+msgid "Posts & Pages"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:15
+#: lib/admin/boxes/feature_top_display.php:15
+msgid "CMS Page Template"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:17
+#: lib/admin/boxes/feature_top_display.php:17
+msgid "3"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:18
+#: lib/admin/boxes/feature_top_display.php:18
+msgid "2"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:19
+#: lib/admin/boxes/feature_top_display.php:19
+msgid "1"
+msgstr ""
+
+#: lib/admin/boxes/feature_bottom_display.php:20
+msgid "Number Of Feature Bottom Widgets"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_content_fonts.php:1
+msgid "Feature Box Content Fonts"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_headline_fonts.php:1
+msgid "Feature Box Headline Fonts"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:1
+msgid "Feature Box Options"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:3
+#: lib/admin/boxes/feature_box_options.php:18
+msgid "Display"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:5
+#: lib/admin/boxes/feature_box_options.php:20
+msgid "Inside"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:6
+#: lib/admin/boxes/feature_box_options.php:21
+msgid "Outside"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:7
+msgid "sidebar wrap"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:8
+#: lib/admin/boxes/feature_box_options.php:24
+msgid "Video/Image/Ad Embed"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:8
+msgid "To embed a video, image or ad in the feature box above the sidebar section, add the ebmed code or html here."
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:10
+msgid "Image Embed Example..."
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:12
+#: lib/admin/boxes/feature_box_options.php:26
+msgid "Text Title"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:14
+msgid "Displays a text title inside the feature box."
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:15
+#: lib/admin/boxes/feature_box_options.php:29
+msgid "Add HTML or Plain Text"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:17
+msgid "Home Feature Box Options"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:22
+msgid "Full Screen"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:23
+msgid "home sidebar wrap"
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:23
+msgid "When set to 'Full Screen' the Home Feature Box will display in place of the Home Top Left widget. So for the Home Feature Box to display in Full Screen mode you must also choose 'Widgets' for your 'Homepage Top Feature Layout Options' as well as select '1' for the amount of Hometop Widgets to display."
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:24
+msgid "To embed a video, image or ad in the home feature box above the sidebar section, add the ebmed code or html here."
+msgstr ""
+
+#: lib/admin/boxes/feature_box_options.php:28
+msgid "Displays a text title inside the home feature box."
+msgstr ""
+
+#: lib/admin/boxes/feature_top_design.php:1
+msgid "Feature Top Design"
+msgstr ""
+
+#: lib/admin/boxes/feature_top_design.php:13
+msgid "Border options..."
+msgstr ""
+
+#: lib/admin/boxes/feature_top_design.php:26
+msgid "Main Margin/Padding..."
+msgstr ""
+
+#: lib/admin/boxes/feature_top_design.php:26
+msgid "NOTE: With CSS margin and padding settings like the ones below you just need to think clock-wise/top-to-bottom. In other words, the first px'd number effects the TOP area, the 2nd number effects the RIGHT, the third effects the BOTTOM and the fourth effects the LEFT."
+msgstr ""
+
+#: lib/admin/boxes/feature_top_design.php:35
+msgid "Individual Widget's Margin/Padding..."
+msgstr ""
+
+#: lib/admin/boxes/feature_top_design.php:44
+msgid "Display: block ?"
+msgstr ""
+
+#: lib/admin/boxes/feature_top_display.php:1
+msgid "Feature Top Display Options"
+msgstr ""
+
+#: lib/admin/boxes/feature_top_display.php:3
+msgid "Which Pages to display feature top..."
+msgstr ""
+
+#: lib/admin/boxes/feature_top_display.php:11
+msgid "Blog Posts & Pages"
+msgstr ""
+
+#: lib/admin/boxes/feature_top_display.php:20
+msgid "Number Of Feature Top Widgets"
+msgstr ""
+
+#: lib/admin/boxes/footer_design.php:1
+msgid "Footer Design"
+msgstr ""
+
+#: lib/admin/boxes/footer_design.php:14
+msgid "Top Border..."
+msgstr ""
+
+#: lib/admin/boxes/footer_design.php:20
+msgid "A 'double' border style requires a border thickness greater than 2px. Just thought I'd let you know. :)"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:1
+msgid "Footer Layout/Design Options"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:3
+msgid "Add Text/Links To Footer"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:3
+msgid "Add any kind of Text/HTML to your footer via this text area. You can use the example HTML below and adjust it to your specific needs."
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:5
+msgid "Example..."
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:7
+msgid "Footer Text Layout"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:9
+msgid "Custom Text | frugal Link"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:10
+msgid "frugal Link | Custom Text"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:12
+msgid "Display Copyright Info"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:16
+msgid "Display Admin Login Link"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:20
+msgid "Merge Copyright & Footer Link"
+msgstr ""
+
+#: lib/admin/boxes/footer_layout_options.php:23
+msgid "NOTE: This will disable the 'Add Text/Links To Footer' option as well as remove the footer 'Admin Login' link."
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:1
+msgid "Options Import/Export"
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:1
+msgid "This section allows you to Import and Export the frugal Option Settings. This is ideal for either complete or partial backup and restore purposes. By Exporting your options you are backing up ALL of your current frugal settings. Upon Import of this Export file you can choose which frugal options page settings to Import by checking the boxes below."
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:3
+msgid "Options Export"
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:4
+msgid "Exports ALL current frugal option settings."
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:7
+msgid "Include Images in Export"
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:10
+msgid "Options Import"
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:14
+msgid "Please select which options to import"
+msgstr ""
+
+#: lib/admin/boxes/frugal_options_importexport.php:20
+msgid "Include Images"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:1
+msgid "Settings"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:6
+msgid "CSS"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:7
+msgid "PHP"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:9
+msgid "Stylesheet Format"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:9
+msgid "The CSS option requires your ../lib/css/dynamic.css file to be writable on your web server (usually it is by default). The PHP option is there just in case the CSS option gives you any trouble. The PHP option works fine too. :-) NOTE: When going from the PHP format back over to the CSS format be sure to click the 'SAVE' button twice. This will re-update the CSS dynamic stylesheet by transferring the PHP settings back over to the CSS format."
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:14
+msgid "Use Gzip"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:14
+msgid "This helps speed up your site and reduce server load. Use this option unless you're experiencing issues because of it."
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:19
+msgid "Speed Test"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:19
+msgid "Shows (in the footer) the amount and speed of the database queries for every page view. This can be a useful tool for testing the efficiency of your theme, plugins and other site add-ons.  Note: This is only visible if you are logged into Wordpress."
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:27
+msgid "Frugal Memory Limit"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:27
+msgid "Increases the WordPress Memory Limit. This may not be supported by your web host so be sure to confirm that your host's PHP Memory Limit allows for an increase to 64M, and only increase from 32M to 64M if you are experiencing memory-related errors."
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:27
+msgid "Read First"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:30
+msgid "32M"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:31
+msgid "64M"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:82
+msgid "Master Reset"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:82
+msgid "To completely reset your frugal Theme Option settings just spell 'Reset' with the dropdown menus and click 'Save'"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:85
+msgid "Re"
+msgstr ""
+
+#: lib/admin/boxes/frugal_settings.php:89
+msgid "set"
+msgstr ""
+
+#: lib/admin/boxes/frugal_skins_importexport.php:1
+msgid "Skins Import/Export"
+msgstr ""
+
+#: lib/admin/boxes/frugal_skins_importexport.php:1
+msgid "This section allows you to Import and Export custom 'Skins'. By 'Skins' I'm referring to the ability to Import and Export custom frugal designs."
+msgstr ""
+
+#: lib/admin/boxes/frugal_skins_importexport.php:3
+msgid "Skin Export"
+msgstr ""
+
+#: lib/admin/boxes/frugal_skins_importexport.php:3
+msgid "Please note that, in order for your Skin's images to be included in the export, they must be in the wp-content/uploads/frugal/ directory and begin with 'TheNameOfYourSkin' (ie. skinname-logo.png or skinname-background.jpg)"
+msgstr ""
+
+#: lib/admin/boxes/frugal_skins_importexport.php:5
+msgid "Enter Skin Name Here"
+msgstr ""
+
+#: lib/admin/boxes/frugal_skins_importexport.php:9
+msgid "Skin Import"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:1
+msgid "Header/Logo Design"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:3
+msgid "Header Design..."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:15
+msgid "Border Type"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:19
+msgid "Border Color"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:20
+msgid "px Style"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:27
+msgid "Logo Font Options..."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:34
+msgid "Custom Logo Font"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:36
+msgid "Logo Font Weight"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:42
+msgid "Logo Letter Spacing"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:43
+msgid "Tagline Font Options..."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:50
+msgid "Custom Tagline Font"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:52
+msgid "Tagline Font Weight"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:56
+msgid "Tagline Font Color"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_design.php:57
+msgid "Tagline Letter Spacing"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:1
+msgid "Header/Logo Options"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:5
+msgid "Text FULL"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:6
+msgid "Image"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:7
+msgid "Image FULL"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:8
+msgid "Header Hook"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:9
+msgid "Logo Type"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:9
+msgid "The logo types specified as FULL will remove the Header Right Banner widget so you can utilize the full width of your header area. To use a logo image just upload your logo image file to your 'wp-content/uploads/frugal/' directory using the built-in frugal upload tool in the 'Settings/Uploads' frugal options page. If uploading by any other means you just need to be sure your logo image file is place in your ...wp-content/uploads/frugal/... directory. Then adjust the logo image name in the text box below accordingly. Be sure to include the full image file name (eg. logo.png NOT JUST logo)."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:10
+msgid "Logo Image File Name"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:12
+msgid "px Header Height"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:13
+msgid "px Logo Width"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:13
+msgid "When using an Image Logo this will represent its exact width, but for a Text Logo this will represent both the width AND the left and right Text Logo Padding. So in stock form, for example, 440px width really means 420px width + 20px left padding."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:13
+msgid "Header Width:"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:13
+msgid "To determine the full width of your header (which may be helpful when creating a full width logo and/or header image) you can click on the 'Dynamic Styles' link at the top of this page then scroll down just a bit to see your current #header width."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:14
+msgid "Image Logo Alignment"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:19
+msgid "Image Logo Top Margin"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:19
+msgid "When you increase the height of the header the logo image will float up and to the left (unless the logo image height is also increased). So adding a little top margin can push the image logo down if needed."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:20
+msgid "Text Logo Alignment"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:25
+msgid "Text Logo Padding"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:29
+msgid "Show Tagline In Header"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:32
+msgid "For the Tagline to display in your header you must be using either the 'Text' or 'Text FULL' 'Logo Type' option."
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:33
+msgid "Tagline Padding"
+msgstr ""
+
+#: lib/admin/boxes/header_logo_options.php:37
+msgid "Header Right Banner Padding"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:1
+msgid "Home Bottom Options"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:6
+msgid "Display Home Bottom Section"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:7
+msgid "Homepage Bottom Feature Layout Options"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:8
+#: lib/admin/boxes/home_top_options.php:4
+msgid "Widgets"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:9
+#: lib/admin/boxes/home_top_options.php:5
+msgid "Latest Post Excerpts"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:10
+#: lib/admin/boxes/home_top_options.php:6
+msgid "Category Post Excerpts"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:11
+#: lib/admin/boxes/home_top_options.php:7
+msgid "Page Excerpts"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:12
+msgid "Excerpt Post List"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:13
+msgid "The 'Excerpt Post List' option requires that you select the 'Featured Content/Home Sidebar' option above for your Home Top Layout."
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:18
+msgid "Number Of Home Bottom Widgets"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:19
+msgid "# of List Posts To Display"
+msgstr ""
+
+#: lib/admin/boxes/home_bottom_options.php:19
+msgid "Referring to the 'Homepage Bottom Feature Layout Options' 'Excerpt Post List'."
+msgstr ""
+
+#: lib/admin/boxes/home_feature_bottom_design.php:1
+msgid "Home/Feature Bottom Design"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_bottom_design.php:25
+msgid "Main Feature Bottom..."
+msgstr ""
+
+#: lib/admin/boxes/home_feature_bottom_design.php:34
+msgid "Individual Feature Bottom Widgets..."
+msgstr ""
+
+#: lib/admin/boxes/home_feature_bottom_design.php:47
+msgid "Main Home Bottom..."
+msgstr ""
+
+#: lib/admin/boxes/home_feature_bottom_design.php:56
+msgid "Individual Home Bottom Widgets..."
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:1
+msgid "Home/Feature Box Design"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:3
+msgid "Margins:"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:4
+msgid "Feature: Top"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:6
+msgid "Home: Top"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:8
+#: lib/admin/boxes/image_caption_design.php:10
+msgid "Background Color"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:9
+msgid "Border colors..."
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:10
+#: lib/admin/boxes/home_feature_box_design.php:13
+msgid "Outer"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:11
+#: lib/admin/boxes/home_feature_box_design.php:14
+msgid "Inner"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_box_design.php:12
+msgid "Home version..."
+msgstr ""
+
+#: lib/admin/boxes/home_feature_content_fonts.php:1
+msgid "Home/Feature Content Fonts"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_content_fonts.php:3
+msgid "(Post Excerpts)"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_content_fonts.php:14
+msgid "(Post Excerpt Bylines)"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_content_fonts.php:25
+msgid "(Widgets/Post/Page)"
+msgstr ""
+
+#: lib/admin/boxes/home_feature_content_fonts.php:25
+msgid "Use these hyperlink options to also control the 'Read more >>' text for Post Excerpts."
+msgstr ""
+
+#: lib/admin/boxes/home_sidebar_design.php:1
+msgid "Home Sidebar Design"
+msgstr ""
+
+#: lib/admin/boxes/home_sidebar_design.php:6
+msgid "Inherit Sidebars"
+msgstr ""
+
+#: lib/admin/boxes/home_sidebar_design.php:24
+msgid "Heading Bottom Border..."
+msgstr ""
+
+#: lib/admin/boxes/home_top_design.php:1
+msgid "Home Top Design"
+msgstr ""
+
+#: lib/admin/boxes/home_top_design.php:13
+msgid "Main Home Top..."
+msgstr ""
+
+#: lib/admin/boxes/home_top_design.php:22
+msgid "Individual Home Top Widgets..."
+msgstr ""
+
+#: lib/admin/boxes/home_top_design.php:35
+msgid "Wide widget options..."
+msgstr ""
+
+#: lib/admin/boxes/home_top_design.php:36
+msgid "Leave blank for a fluid height (eg. 100%)."
+msgstr ""
+
+#: lib/admin/boxes/home_top_design.php:37
+msgid "Wide widget border options..."
+msgstr ""
+
+#: lib/admin/boxes/home_top_design.php:46
+msgid "Wide Home Top Widget..."
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:1
+msgid "Home Top Featured Content"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:3
+msgid "Feature either a page, post or category on your static homepage. (requires use of the <b>Featured Content/Home Sidebar</b> option above)"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:5
+msgid "Display Featured Page"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:6
+msgid "Display Featured Category"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:7
+msgid "Display Featured Post"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:8
+msgid "Display Latest Post"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:9
+msgid "Page To Display"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:11
+msgid "Category To Display"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:13
+msgid "Post To Display -- insert post ID -->"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:14
+msgid "Feature Post Layout"
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:17
+msgid "Determines how much content is revealed in when using the Featured Content and the Display Latest Post options for your Home Top section of your Static Homepage."
+msgstr ""
+
+#: lib/admin/boxes/home_top_featured.php:18
+msgid "# of Latest/Category Posts To Display"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:1
+msgid "Home Top Options"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:3
+msgid "Homepage Top Feature Layout Options"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:8
+msgid "Featured Content/Home Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:9
+msgid "Featured Content (Full Width)"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:10
+msgid "1 Widget/Home Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:12
+msgid "Home Sidebar Options..."
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:14
+msgid "Float Location"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:22
+msgid "Number Of Home Top Widgets"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:23
+msgid "Thumbnails In Home Excerpts"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:26
+msgid "This is your On/Off switch for thumbnail images when using the post excerpts on your Static Homeapge."
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:27
+msgid "Add URL To Activate 'View all posts' Link For 'Featured Content/Home Sidebar' Option"
+msgstr ""
+
+#: lib/admin/boxes/home_top_options.php:29
+msgid "(eg. A link to a 'blog' or 'archive' type page.)"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:1
+msgid "Post Image/Caption Design"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:1
+msgid "When you use an image 'Caption' in your posts you can style the background, border and font of the captions here.  And regardless of whether or not you use a Caption you can adjust the image padding below."
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:3
+msgid "Post/Page Image Padding"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:4
+msgid "5"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:5
+msgid "10"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:6
+msgid "15"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:7
+msgid "20"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:8
+msgid "The space between your Post or Page images and the rest of your content."
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:9
+msgid "Image Caption Design..."
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:20
+msgid "Fonts..."
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:20
+msgid "Add Padding For Text"
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:23
+msgid "When set to 'Yes' bottom padding will be added to your image caption so your text will have room to display. But if you want to just have the caption background and border display, without the text, set this option to 'No'. Then, when adding a caption, just place the cursor in the caption text area, hit the spacebar once, and then save your caption."
+msgstr ""
+
+#: lib/admin/boxes/image_caption_design.php:37
+msgid "italic"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:1
+msgid "Links & Codes"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:3
+msgid "RSS Subscription Link"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:3
+msgid "This would be the link to your blog's RSS feed such as the default one (ie. http://your-blog.com/feed) or from something like Feedburner."
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:5
+msgid "Displaying link requires 'RSS' or 'RSS | Email' <b>Navbar Right Layout</b> option to be selected or the use of the"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:5
+msgid "RSS Shortcode:"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:5
+msgid "or"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:5
+#: lib/admin/boxes/links_and_codes.php:8
+msgid "RSS | Email Shortcode:"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:5
+msgid "Copy this shortcode (ie. [rss] or [rss_email]) anywhere you want your RSS and/or Email link displayed. For example, if you want it to display in your sidebar you can paste [rss] into a 'Text' widet and it will display in that location of your sidebar (you can do this in any widget area as well)."
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:6
+msgid "Email Subscription Link"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:6
+msgid "This would be the link to your blog's Email feed such as one from Feedburner."
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:8
+msgid "Displaying link requires 'RSS | Email' <b>Navbar Right Layout</b> option to be selected or the use of the"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:8
+msgid "Copy this shortcode (ie. [rss_email]) anywhere you want your RSS and Email link displayed. For example, if you want it to display in your sidebar you can paste [rss_email] into a 'Text' widet and it will display in that location of your sidebar (you can do this in any widget area as well)."
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:9
+msgid "Twitter ID (NOT full Twitter URL)"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:9
+msgid "This would be your actual Twitter ID, not the entire URL to your Twitter ID (ie. frugaltheme NOT http://twitter.com/frugaltheme)."
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:11
+msgid "Displaying link requires 'Follow Me' <b>Navbar Right Layout</b> option to be selected or the use of the"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:11
+msgid "Twitter Shortcode:"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:11
+msgid "Copy this shortcode (ie. [twitter]) anywhere you want your Twitter link displayed. For example, if you want it to display in your sidebar you can paste [twitter] into a 'Text' widet and it will display in that location of your sidebar (you can do this in any widget area as well)."
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:12
+msgid "frugal Footer Affiliate Link"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:12
+msgid "Sign Up"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:12
+msgid "Sign up as a frugal Affiliate and then add your affiliate link here. This adds your affiliate link to the frugal link in your site's footer. Why not make a little cash while using your awesome Frugal Theme?! :)"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:14
+msgid "Gravatar Email Address"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:14
+msgid "Get One"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:14
+msgid "By inserting your Gravatar email address in the text area below your Gravatar image will show up in your Author page (when readers click on the author link in the byline of your posts).  PLEASE NOTE that the Author page content is pulled from the Profile content you add to your Wordpress Dashboard. Name = Nickname & Content = Biographical Info. If you don't have a Gravatar email address you can click on the provided link to sign up."
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:16
+msgid "Header Script Code"
+msgstr ""
+
+#: lib/admin/boxes/links_and_codes.php:18
+msgid "Footer Script Code (ie. Google Analytics)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:1
+msgid "Main Backgrounds"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:7
+msgid "No-Repeat Image (Right)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:8
+msgid "No-Repeat Image (Left Fixed)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:9
+msgid "No-Repeat Image (Center Fixed)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:10
+msgid "No-Repeat Image (Right Fixed)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:12
+msgid "Horizontal-Repeat Image (Fixed)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:14
+msgid "Vertical-Repeat Image (Fixed)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:16
+msgid "Horizontal & Vertical-Repeat Image (Fixed)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:19
+msgid "Wrap Background (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:29
+msgid "Container Background (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:39
+msgid "Wide Container BG (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:39
+msgid "Includes the CMS Wide Page Template."
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:41
+#: lib/admin/boxes/main_backgrounds.php:52
+msgid "Inherit Container"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:50
+msgid "CMS Container BG (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/main_backgrounds.php:50
+msgid "Does not include the CMS Wide Page Template."
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:1
+msgid "Main Border/Padding/Margins"
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:3
+msgid "Main Border..."
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:11
+#: lib/admin/boxes/main_border_padding_margins.php:21
+msgid "Top/Bottom Thickness"
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:12
+#: lib/admin/boxes/main_border_padding_margins.php:22
+msgid "Left/Right Thickness"
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:13
+msgid "Content Container Border..."
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:23
+msgid "Main Margins..."
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:26
+msgid "Padding..."
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:27
+msgid "Wrap Top/Bottom"
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:28
+msgid "Wrap Left/Right"
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:29
+msgid "Content Container Left/Right"
+msgstr ""
+
+#: lib/admin/boxes/main_border_padding_margins.php:29
+msgid "The 'Content Container Padding' is combined. (eg. 20px = 10px left + 10px right)"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:1
+msgid "Main Layout"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:3
+msgid "Header/Footer/Navbar Fluid Options"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:3
+msgid "The items in the dropdown menu, if selected, will span the entire width of the screen instead of being confined by borders."
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:5
+msgid "None"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:6
+msgid "Header Only"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:7
+msgid "Footer Only"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:8
+msgid "Navbar Only"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:9
+msgid "Header & Navbar Only"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:10
+msgid "Header & Footer Only"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:11
+msgid "Navbar & Footer Only"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:12
+msgid "All"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:14
+msgid "Content Layout Options"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:15
+msgid "Double Right Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:16
+msgid "Double Left Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:20
+msgid "No Sidebar"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:22
+msgid "px Content Column Width"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:23
+msgid "px Sidebar 1 Width"
+msgstr ""
+
+#: lib/admin/boxes/main_layout.php:24
+msgid "px Sidebar 2 Width"
+msgstr ""
+
+#: lib/admin/boxes/navbar_backgrounds.php:1
+msgid "Navbar Backgrounds"
+msgstr ""
+
+#: lib/admin/boxes/navbar_backgrounds.php:11
+#: lib/admin/boxes/navbar_margins_borders.php:25
+msgid "Active Page"
+msgstr ""
+
+#: lib/admin/boxes/navbar_backgrounds.php:19
+#: lib/admin/boxes/navbar_margins_borders.php:26
+msgid "Non-Active Page"
+msgstr ""
+
+#: lib/admin/boxes/navbar_backgrounds.php:27
+msgid "Non-Active Hover"
+msgstr ""
+
+#: lib/admin/boxes/navbar_backgrounds.php:49
+msgid "Sub-Page Active"
+msgstr ""
+
+#: lib/admin/boxes/navbar_fonts.php:1
+msgid "Navbar Fonts"
+msgstr ""
+
+#: lib/admin/boxes/navbar_fonts.php:29
+msgid "Active Page Font Color"
+msgstr ""
+
+#: lib/admin/boxes/navbar_fonts.php:30
+msgid "Sub-Page Fonts..."
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:1
+msgid "Navbar Margins/Borders"
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:3
+msgid "Navbar Left Margin Thickness"
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:3
+msgid "If you'd like to center your Navbar pages in your Navbar area you can increase this number until you achieve your desired result. Note: This option is deactivated when your navbar is set to fluid width."
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:4
+msgid "Page Margin Thickness..."
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:13
+msgid "Main Border Thickness..."
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:16
+msgid "Page Border Thickness..."
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:18
+msgid "Btm"
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:19
+msgid "Lft"
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:20
+msgid "Rt"
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:23
+msgid "Top (Main)"
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:24
+msgid "Bottom (Main)"
+msgstr ""
+
+#: lib/admin/boxes/navbar_margins_borders.php:27
+msgid "Non-Active Page Hover"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:1
+msgid "Navbar Options"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:6
+msgid "Main Navbar Type"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:7
+#: lib/admin/boxes/navbar_options.php:11
+msgid "Frugal"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:8
+#: lib/admin/boxes/navbar_options.php:12
+msgid "Wordpress"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:9
+msgid "Here you can choose whether or not you want to use the Frugal Main Menu for your Navbar or the Wordpress Custom Menu (which can be created in Appearance > Menus in your Wordpress Dashboard)."
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:10
+msgid "Secondary Navbar Type"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:13
+msgid "Here you can choose whether or not you want to use the Frugal Category Menu for your Secondary Navbar or the Wordpress Custom Menu (which can be created in Appearance > Menus in your Wordpress Dashboard)."
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:17
+msgid "Navigation Display Locations..."
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:18
+msgid "Navbar"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:19
+#: lib/admin/boxes/navbar_options.php:26
+msgid "Below Header"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:20
+#: lib/admin/boxes/navbar_options.php:27
+msgid "Above Header"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:21
+msgid "Beside Header"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:22
+msgid "No Navbar"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:24
+msgid "Secondary Navbar"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:25
+msgid "No Secondary Navbar"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:29
+msgid "Secondary Navbar On CMS Pages"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:32
+msgid "Choose whether or not to display the secondary navbar on pages using either of the two CMS page templates. The 'No Secondary Navbar' selection above will override this option and remove it from ALL pages."
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:33
+msgid "Navbar Right Layout"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:34
+#: lib/admin/boxes/navbar_options.php:42
+msgid "Empty"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:36
+#: lib/admin/boxes/navbar_options.php:44
+msgid "RSS & Email"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:38
+#: lib/admin/boxes/navbar_options.php:46
+msgid "Search"
+msgstr ""
+
+#: lib/admin/boxes/navbar_options.php:41
+msgid "2ndNav Right Layout"
+msgstr ""
+
+#: lib/admin/boxes/navbar_right_design.php:1
+msgid "Navbar Right Design"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:1
+msgid "Page/Category Display Control"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:3
+msgid "'Home' Tab Text"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:5
+msgid "Delete text to remove the home link from navbar."
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:6
+msgid "Exclude Pages From Navbar"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:8
+msgid "Add page ID's to exclude pages from Navbar. (Comma separated, no spaces. e.g. 55,67,91)"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:9
+msgid "Remove Specific Page Items"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:9
+msgid "Use the code example below to remove the visibility of different items on specified pages."
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:11
+msgid "If used in the above text box, the code examples below will remove different items from specified pages. For example... body.home #home h2.post_title, body.pageid-7 #content h1 ...will remove the page titles from the homepage and page with the ID of 7. Remove 'body.home #home h2.post_title,' to display the home page title, and adjust the page IDs as needed... body.pageid-16 #header_wrap, body.pageid-16 #navbar_wrap, body.pageid-16 #footer_wrap ...will remove the Header, Navbar and Footer areas on a page with an ID of 16. So a simple landing page is easily achievable. Ad/remove/adjust as many instances as you'd like. Note the comma separation, but no closing comma."
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:14
+msgid "Below you will find a list of your Wordpress Pages and their corresponding IDs. This information is useful when you need to add a Page ID to a frugal option for such things as Page Exclusion and Page Title Removal."
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:19
+msgid "Exclude Categories From Category Navbar"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:21
+msgid "Add page ID's to exclude pages from Cat-Navbar. (Comma separated, no spaces. e.g. 55,67,91)"
+msgstr ""
+
+#: lib/admin/boxes/page_category_display.php:23
+msgid "Below you will find a list of your Wordpress Categories and their corresponding IDs. This information is useful when you need to add a Category ID to the frugal option that excludes specific Categories from your Category Navbar."
+msgstr ""
+
+#: lib/admin/boxes/post_banner_options.php:1
+msgid "Post Banner Options"
+msgstr ""
+
+#: lib/admin/boxes/post_banner_options.php:6
+msgid "Display Single Post Banner"
+msgstr ""
+
+#: lib/admin/boxes/post_banner_options.php:6
+msgid "This is a widget area located between the post and comment section."
+msgstr ""
+
+#: lib/admin/boxes/post_banner_options.php:11
+msgid "Color Options..."
+msgstr ""
+
+#: lib/admin/boxes/post_excerpt_byline.php:1
+msgid "Post Excerpt Byline Content"
+msgstr ""
+
+#: lib/admin/boxes/post_excerpt_heading_fonts.php:1
+msgid "Post Excerpt Heading Fonts"
+msgstr ""
+
+#: lib/admin/boxes/search_box_design.php:1
+msgid "Search Box Design"
+msgstr ""
+
+#: lib/admin/boxes/search_box_design.php:3
+msgid "Backgrounds (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/search_box_design.php:11
+msgid "Font Type"
+msgstr ""
+
+#: lib/admin/boxes/search_box_design.php:19
+msgid "Colors:</b> Border"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:1
+msgid "SEO Options"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:3
+msgid "Placement of <code>&lt;h1&gt;</code> Tags On Homepage:"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:5
+msgid "Wrap Title With H1's"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:6
+msgid "Wrap Tagline With H1's"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:7
+msgid "Neither: Let Me Do It Myself"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:9
+msgid "Homepage Meta Description"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:9
+msgid "Add a meta description to your homepage."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:11
+msgid "Homepage Meta Keywords"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:11
+msgid "Add meta keywords to your homepage. (Comma separated...eg... blogging, design, seo)"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:16
+msgid "Categories As Meta"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:16
+msgid "Use categories as meta keywords in posts."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:20
+msgid "Tags As Meta"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:20
+msgid "Use tags as meta keywords in posts."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:24
+msgid "Canonical URLs"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:24
+msgid "Canonicalization is the process of picking the best url when there are several choices. This can help inform search engines of the proper URL to index when they crawl your site."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:25
+msgid "Enable In-Post/In-Page SEO..."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:25
+msgid "I've add this option to disable these SEO options in case you are already using an SEO plugin that you'd prefer to use for In-Post/In-Page SEO."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:29
+msgid "In-Post/Page SEO 1"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:29
+msgid "Title-Description-Keyword options."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:33
+msgid "In-Post/Page SEO 2"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:33
+msgid "Noindex-Nofollow options."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:34
+msgid "Noindex..."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:38
+msgid "Noindex Archive Pages"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:42
+msgid "Noindex Category Pages"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:46
+msgid "Noindex Tag Pages"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:50
+msgid "Noindex Author Pages"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:51
+msgid "Nofollow..."
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:55
+msgid "Nofollow Homepage Link"
+msgstr ""
+
+#: lib/admin/boxes/seo_options.php:59
+msgid "Nofollow Comment Author Links"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:1
+msgid "SEO Title Options"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:3
+msgid "Home Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:4
+msgid "Post Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:5
+msgid "Page Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:6
+msgid "Category Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:7
+msgid "Tag Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:8
+msgid "Archive Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:9
+msgid "Search Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:10
+msgid "Author Title Display"
+msgstr ""
+
+#: lib/admin/boxes/seo_title_options.php:11
+msgid "404 Title Display"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_content_fonts.php:1
+msgid "Sidebar Content Fonts"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:1
+msgid "Sidebar Design"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:25
+msgid "Main Border Options..."
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:34
+msgid "Heading Background (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:44
+msgid "Heading Border Options..."
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:57
+msgid "Sidebar Widgets Design Active"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:60
+msgid "When set to 'Yes' the individual Sidebar Widget Background and Border options below are functional. When set to 'No' they are non-functional. This option was put in place because some web forms and other sidebar widgets may not display properly with the below options active."
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:61
+msgid "Widgets Background (Type - Color - Name)"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:71
+msgid "Widget's Border Options..."
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:80
+msgid "Sidebar List Style"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:82
+msgid "disc"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:83
+msgid "circle"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_design.php:84
+msgid "square"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_pages_widget_fonts.php:1
+msgid "Sidebar 'Pages' Widget Fonts"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_pages_widget_fonts.php:1
+msgid "Using the Wordpress 'Pages' Widget in your sidebar is a fast and easy way create vertical navigation on your site. The problem is that when your Page links look just like the rest of your sidebar links it can be confusing to your visitors. With the following styles you can now independently style these Page links and create an all together more functional vertical navigation system."
+msgstr ""
+
+#: lib/admin/boxes/sidebar_pages_widget_fonts.php:25
+msgid "Display 'Pages' Widget Heading"
+msgstr ""
+
+#: lib/admin/boxes/sidebar_title_fonts.php:1
+msgid "Sidebar Title Fonts"
+msgstr ""
+
+#: lib/admin/boxes/static_homepage_options.php:1
+msgid "Static Homepage Options"
+msgstr ""
+
+#: lib/admin/boxes/static_homepage_options.php:4
+msgid "Do Not Display"
+msgstr ""
+
+#: lib/admin/boxes/static_homepage_options.php:5
+msgid "Home Page"
+msgstr ""
+
+#: lib/admin/boxes/static_homepage_options.php:6
+msgid "Blog Page Template"
+msgstr ""
+
+#: lib/admin/boxes/static_homepage_options.php:7
+msgid "Display Location"
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:1
+msgid "Thumbnail Options"
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:1
+msgid "These thumbnail options are dependent on Wordpress 2.9 and above to function. If utilized, these options will effect all thumbnails that are added to the Static Homepage post excerpts as well as archive page posts excerpts (assuming you have your archive pages set to display excerpts over full content)."
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:3
+msgid "Mode"
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:3
+msgid "'Resize' mode will maintain the proportions of your image. 'Crop' mode will force your image to fit your specific dimensions, regardless of your original image proportions. Neither should distort your image. Note: The selected crop mode will only effect future image uploads as the cropping is performed upon upload."
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:5
+msgid "Resize"
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:6
+msgid "Crop"
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:8
+msgid "'None' will float left without the text wrapping around the image."
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:12
+msgid "Center"
+msgstr ""
+
+#: lib/admin/boxes/thumbnail_options.php:23
+msgid "A 'double' border style requires a border thickness greater than 2px. Just thought I'd let you know. :-)"
+msgstr ""
+
+#: lib/admin/boxes/top_widgets_heading_fonts.php:1
+msgid "Top Widgets Heading Fonts"
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:1
+msgid "Universal Design"
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:3
+msgid "Universal Font Options"
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:3
+msgid "If active, the following font options will override all other content font selections. This covers everything ACCEPT the Header, Footer and Navbar areas."
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:4
+msgid "Activate"
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:18
+msgid "Universal List Style"
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:23
+msgid "This covers the List-Styles of ALL areas of your site except Sidebars which have their own List-Style Option."
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:24
+msgid "Body Line Height"
+msgstr ""
+
+#: lib/admin/boxes/universal_design.php:24
+msgid "Will effect the line height of any element that does not already have a specified line height."
+msgstr ""
+
+#: lib/functions/frugal_custom.php:14
+msgid "Custom Widget 1"
+msgstr ""
+
+#: lib/functions/frugal_custom.php:15
+#: lib/functions/frugal_custom.php:51
+#: lib/functions/frugal_custom.php:87
+#: lib/functions/frugal_custom.php:123
+#: lib/functions/frugal_feature.php:22
+#: lib/functions/frugal_feature.php:31
+#: lib/functions/frugal_feature.php:40
+#: lib/functions/frugal_feature.php:51
+#: lib/functions/frugal_feature.php:60
+#: lib/functions/frugal_feature.php:71
+#: lib/functions/frugal_feature.php:101
+#: lib/functions/frugal_feature.php:110
+#: lib/functions/frugal_feature.php:119
+#: lib/functions/frugal_feature.php:130
+#: lib/functions/frugal_feature.php:139
+#: lib/functions/frugal_feature.php:150
+#: lib/functions/frugal_home.php:502
+#: lib/functions/frugal_home.php:510
+#: lib/functions/frugal_home.php:518
+#: lib/functions/frugal_home.php:529
+#: lib/functions/frugal_home.php:537
+#: lib/functions/frugal_home.php:554
+#: lib/functions/frugal_home.php:1069
+#: lib/functions/frugal_home.php:1077
+#: lib/functions/frugal_home.php:1085
+#: lib/functions/frugal_home.php:1096
+#: lib/functions/frugal_home.php:1104
+#: lib/functions/frugal_home.php:1115
+msgid "Use these areas to feature your content. Each featured area is widget ready so you can easily add any sort of widget capable content. Images may also be added to these featured areas to help maximize the spotlight you put on your home page content."
+msgstr ""
+
+#: lib/functions/frugal_custom.php:50
+msgid "Custom Widget 2"
+msgstr ""
+
+#: lib/functions/frugal_custom.php:86
+msgid "Custom Widget 3"
+msgstr ""
+
+#: lib/functions/frugal_custom.php:122
+msgid "Custom Widget 4"
+msgstr ""
+
+#: lib/functions/frugal_feature.php:21
+#: lib/functions/frugal_feature.php:50
+#: lib/functions/frugal_feature.php:70
+msgid "Feature Top Left"
+msgstr ""
+
+#: lib/functions/frugal_feature.php:30
+msgid "Feature Top Middle"
+msgstr ""
+
+#: lib/functions/frugal_feature.php:39
+#: lib/functions/frugal_feature.php:59
+msgid "Feature Top Right"
+msgstr ""
+
+#: lib/functions/frugal_feature.php:100
+#: lib/functions/frugal_feature.php:129
+#: lib/functions/frugal_feature.php:149
+msgid "Feature Bottom Left"
+msgstr ""
+
+#: lib/functions/frugal_feature.php:109
+msgid "Feature Bottom Middle"
+msgstr ""
+
+#: lib/functions/frugal_feature.php:118
+#: lib/functions/frugal_feature.php:138
+msgid "Feature Bottom Right"
+msgstr ""
+
+#: lib/functions/frugal_footer.php:10
+#: lib/functions/frugal_footer.php:29
+msgid "WP Dashboard"
+msgstr ""
+
+#: lib/functions/frugal_footer.php:14
+#: lib/functions/frugal_footer.php:33
+msgid "Admin Login"
+msgstr ""
+
+#: lib/functions/frugal_footer.php:45
+#: lib/functions/frugal_footer.php:67
+msgid "Powered by"
+msgstr ""
+
+#: lib/functions/frugal_footer.php:45
+#: lib/functions/frugal_footer.php:67
+msgid "frugal"
+msgstr ""
+
+#: lib/functions/frugal_footer.php:71
+#: lib/functions/frugal_footer.php:85
+msgid "Copyright"
+msgstr ""
+
+#: lib/functions/frugal_footer.php:76
+#: lib/functions/frugal_footer.php:90
+msgid "database queries in"
+msgstr ""
+
+#: lib/functions/frugal_footer.php:76
+#: lib/functions/frugal_footer.php:90
+msgid "seconds"
+msgstr ""
+
+#: lib/functions/frugal_home.php:501
+#: lib/functions/frugal_home.php:528
+#: lib/functions/frugal_home.php:553
+msgid "Home Top Left"
+msgstr ""
+
+#: lib/functions/frugal_home.php:509
+msgid "Home Top Middle"
+msgstr ""
+
+#: lib/functions/frugal_home.php:517
+#: lib/functions/frugal_home.php:536
+msgid "Home Top Right"
+msgstr ""
+
+#: lib/functions/frugal_home.php:1068
+#: lib/functions/frugal_home.php:1095
+#: lib/functions/frugal_home.php:1114
+msgid "Home Bottom Left"
+msgstr ""
+
+#: lib/functions/frugal_home.php:1076
+msgid "Home Bottom Middle"
+msgstr ""
+
+#: lib/functions/frugal_home.php:1084
+#: lib/functions/frugal_home.php:1103
+msgid "Home Bottom Right"
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:158
+#: lib/functions/frugal_meta_box.php:183
+msgid "Title"
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:163
+#: lib/functions/frugal_meta_box.php:188
+msgid "Description"
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:168
+#: lib/functions/frugal_meta_box.php:193
+msgid "Keywords"
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:174
+#: lib/functions/frugal_meta_box.php:199
+#: lib/functions/frugal_meta_box.php:221
+#: lib/functions/frugal_meta_box.php:241
+msgid "<strong>Learn how to effectively use these SEO options by heading over to the frugalTheme.com <a href=\"http://frugaltheme.com/support/tutorials/how-to-use-the-frugal-in-postin-page-seo-options/\">Support Page</a></strong>"
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:210
+msgid "<code>noindex</code> this post."
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:215
+msgid "<code>nofollow</code> links in this post."
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:230
+msgid "<code>noindex</code> this page."
+msgstr ""
+
+#: lib/functions/frugal_meta_box.php:235
+msgid "<code>nofollow</code> links in this page."
+msgstr ""
+
+#: lib/functions/frugal_sidebars.php:49
+msgid "Recent Posts"
+msgstr ""
+
+#: lib/functions/frugal_sidebars.php:82
+msgid "Archives"
+msgstr ""
+
+#: lib/functions/frugal_sidebars.php:91
+msgid "Links"
+msgstr ""
+

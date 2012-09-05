@@ -1,0 +1,67 @@
+/* CSS file for red color scheme */
+#header {
+	background: #ff4516;
+	border-bottom: 1px solid #ce3d19;
+}
+#bger {
+	background: #eb2f00;
+}
+
+.menu ul li a {
+	color:#922d13;
+	text-shadow: 0 1px 0 #ff7552;
+}
+.menu ul li:hover a {
+	color:#fff;
+	text-shadow: 0 1px 0 #000;
+}
+.menu ul li ul.children {  
+    background: #ce3d19;
+}  
+.menu ul li ul.children li{   
+    border-bottom: 1px solid #78200a; 
+}  
+
+
+#footer
+{
+	background: #ff4516;
+}
+#footer
+{
+	color: #0e6582;
+}
+.widget-area ul li h3
+{
+	color:#922d13;
+	text-shadow: 0 1px 0 #ff7552;
+}
+.widget-area ul ul {
+	border: none;
+	margin-left: 1.3em;
+	padding: 0;
+}
+.widget-area ul li a
+{
+	color:#78200a;
+	text-shadow: 0 1px 0 #ff7552;
+}
+.widget-area ul li a:hover
+{
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+}
+#below-footer
+{
+	background: #eb2f00;
+	border-top: 1px solid #ce3d19;
+}
+#below-footer .menu2 ul li a {
+	color:#fff;
+	text-shadow: 0 1px 0 #000;
+}
+#below-footer .menu2 ul li a:hover
+{
+	color:#78200a;
+	text-shadow: 0 1px 0 #ff7552;
+}

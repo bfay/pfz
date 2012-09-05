@@ -1,0 +1,36 @@
+frugal
+Version 3.5
+
+***********************
+
+Thanks for purchasing the frugal Premium Wordpress Theme!  I think you'll find it to be a
+
+lite, clean, powerful Wordpress theme and it's my hope that it will soon become your favorite
+
+option when choosing a skin for your Wordpress websites.
+
+
+To install your frugal Theme you just upload the 'frugal_[version#]' folder to your 'themes'
+
+directory in your Wordpress installation and then activate it from your Wordpress Dashboard.
+
+I've also included a zipped version of this folder if you'd prefer to use the Wordpress
+
+'Add New Themes' feature in which you can upload the zipped folder directly to Wordpress from
+
+inside your Wordpress Dashboard.  So the files in the zipped folder are identical to those in
+
+the un-zipped folder with the same name.
+
+
+
+You'll find support for your frugal Theme at http://frugaltheme.com/support/  The video tutorials
+
+provide the 'How-Tos' while the frugal Forum is the place for direct support as well as access to
+
+the latest versions of frugal as they come out.
+
+
+Enjoy!
+
+The Frugal Team

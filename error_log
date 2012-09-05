@@ -1,0 +1,5 @@
+[18-May-2012 10:04:00] PHP Fatal error:  Call to undefined function  require_wp_db() in /home/mybride1/public_html/peanutfreezone.com/wp-settings.php on line 71
+[18-May-2012 10:06:43] PHP Fatal error:  Call to undefined function  require_wp_db() in /home/mybride1/public_html/peanutfreezone.com/wp-settings.php on line 71
+[30-May-2012 10:11:48] PHP Fatal error:  Call to undefined function  wp() in /home1/mybride1/public_html/peanutfreezone.com/wp-blog-header.php on line 14
+[30-May-2012 10:11:50] PHP Fatal error:  Call to undefined function  wp() in /home1/mybride1/public_html/peanutfreezone.com/wp-blog-header.php on line 14
+[30-May-2012 10:12:06] PHP Fatal error:  Call to undefined function  wp() in /home1/mybride1/public_html/peanutfreezone.com/wp-blog-header.php on line 14

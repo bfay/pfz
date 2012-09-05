@@ -1,0 +1,12 @@
+ /* NOTE: To use this file you must first activate it ('custom stylesheet') in the frugal Main/SEO options area.
+Once active, you can add custom styles to this file and they will override any other styles in this theme.
+To create a custom style you must start your CSS elements with body.custom. So, for example,
+to change the H1 heading size for the Content Div you could use something like this:
+
+body.custom #content h1 {
+	font-size: 18px;
+}
+
+Learn more about this customization process by visiting http://frugaltheme.com/support/
+
+------ CODE GOES BELOW THIS LINE OF TEXT ------ */

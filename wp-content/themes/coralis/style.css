@@ -1,0 +1,916 @@
+/*
+Theme Name: Coralis
+Theme URI: http://www.dkszone.net/2009/09/coralis-free-3-column-wordpress-theme.html
+Description: Coralis is a three column WordPress theme with two Sidebars on the right side. This free theme is widget-ready and SEO optimized. This light weight theme has been designed to accommodate 125x125 Adsense blocks in the left sidebar and a Wide Skyscraper Ad (160x600) in the right sidebar. Theme designed by www.dkszone.net.
+Version: 1.03
+Author: dkszone.net
+Author URI: http://www.dkszone.net/
+Tags: blue, white, three-columns, fixed-width
+
+	This theme is released under the GPL: http://www.gnu.org/licenses/gpl.html
+    
+*/
+
+
+/***** RESET *******/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; }
+
+/***** GLOBAL FORMATTING *****/
+
+body {
+	background: #b0b09d repeat-x;
+	font-size: 12px;
+	color: #000;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+img {
+	border: 0;
+}
+a {
+	color: #119ab5;
+	text-decoration: none;
+}
+a:hover {
+	color: #4F67F0;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #49647d;
+}
+
+img {
+	border: 0;
+}
+#container{
+	margin-top:30px;
+}
+
+#wrapper {
+	display: block;
+	margin: 5px auto 0 auto;
+	width: 1000px;
+	position: relative;
+	background: url(images/pg_bg.png) repeat-y;
+}
+
+
+#header-shadow {
+	height: 8px;
+	width: 1000px;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	background: transparent url(images/header_shadow.png) no-repeat;
+	
+}
+
+/***** PAGE FORMATTING *****/
+#header {
+	width: 984px;
+	background: url(images/header.png) no-repeat;
+	height: 125px;
+	margin-left: 8px;
+	margin-top: -5px;
+	color: #fff;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+.title {
+	padding: 5px 5px 5px 20px;
+	color: #fff;
+}
+
+h1.blogtitle {
+	padding: 20px 10px 0px 17px;
+}
+
+h1.blogtitle a{
+	font-size: 38px;
+	font-family: "Futura Md",Arial, Helvetica, Sans-Serif;
+	font-weight: normal;
+	color: #FFFFFF;	
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+	
+h3.slogantext{
+	font-size: 21px;
+	font-family: "Futura Md",Arial, Helvetica, Sans-Serif;
+	font-weight: normal;
+	color: #FFFFFF;
+	padding: 0px 10px 10px 17px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+h1.post{
+	font-size: 24px;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color:  #333;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #949494;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+h1.post a{
+	color: #119ab5;
+	text-decoration: none;
+}
+
+h1.post a:hover{
+	color: #4F67F0;
+}
+
+h1 {
+	font-size: 22px;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color:  #333;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding:  3px;
+	color:  #333;
+	margin-bottom: 5px;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	padding:  3px;
+	color:  #333;
+	margin-bottom: 5px;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	padding:  3px;
+	color:  #333;
+	margin-bottom: 5px;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+h5, h6 {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	padding:  3px;
+	color:  #333;
+	margin-bottom: 5px;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+
+#nextprev {
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+/***** LISTS FORMATTING *****/
+
+.post ul {
+	margin-left: 0px;
+	padding: 0 0 10px 30px;
+	list-style-image: url(images/bullet.png);
+	padding-left: 30px;
+} 
+
+.post li {
+	margin: 7px 0 8px 10px;
+}
+
+.post ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+}
+
+.post ol li {
+	margin: 0;
+	padding: 0;
+}
+	
+/**** TABLE FORMATTING ****/	
+	
+.post  table {
+	background:#FFF;
+	border:2px solid #CCC;
+	border-collapse:collapse;
+	margin:5px 0 10px;
+}
+.post  th, 
+.post  td {
+	border:1px solid #CCC;
+	padding:3px 10px;
+	text-align:left;
+	vertical-align:top;
+}
+.post  tr.even td {
+	background:#F7F7F7;
+}
+.post  th {
+	background:#EDEFF0;
+}
+
+/****** RSS ICON ON HEADER ******/
+.rssicon
+{
+  position: relative;
+  display:block;
+  float:right;
+  background-image: url('images/rss.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  margin-top: -60px; margin-right: 5px;
+  height: 17px;
+  width: 17px;
+}
+
+#Nav {
+	display: block;
+}
+
+#content {
+	width: 590px;
+	float: left;
+	color: #000;
+	padding: 20px;
+}
+
+
+/***** NAVIGATION BAR FORMATTING *****/
+
+ul#NaviBar {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 984px;
+	float: left;
+	margin-left:8px;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 13px;
+	background: url(images/nav_bg.gif) repeat-x;
+	background-color: #333;
+	}
+
+ul#NaviBar a {
+color:#FFFFFF;
+display:block;
+float:left;
+margin:0;
+padding:8px 15px 8px 15px;
+text-decoration:none;
+font-weight: bold;
+text-transform:uppercase;
+border-right: solid 1px #999;
+}
+
+ul#NaviBar li {
+	float: left;
+	background: url(images/nav_bg.gif) repeat-x;
+	
+}
+
+ul#NaviBar li.first {
+	border-left: none;
+}
+
+
+
+ul#NaviBar li a:hover {
+	text-decoration: none;
+	background: url(images/nav_hover_active.gif) repeat-x;
+	text-shadow:0px 1px 1px #333;
+}
+
+ul#NaviBar li.current_page_item a { 
+	color: #fff; 
+	background:url(images/nav_hover_active.gif) repeat-x;
+	text-decoration: none;
+}
+
+
+/***** GENERAL TEXT FORMATTING *****/
+.post {
+	margin-bottom: 20px;
+}
+
+.article {
+	float:left;
+	width: 590px;
+}
+
+blockquote {
+	color: #000; 
+	margin: 0 1px 20px 20px; 
+	background: url(images/BlockQuote.png) top left no-repeat #F0F0F0;
+	border: 1px dashed #DFDFDF;
+	padding: 20px 10px 0px 40px;
+	font-size: 11px;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+p {
+	margin-bottom: 15px;
+	line-height: 1.6em;
+}
+p a {
+	border-bottom: none;
+	text-decoration: none;
+}
+p a:hover {
+	border-bottom: none;
+	text-decoration: underline;
+}
+p.center {
+	text-align: center;
+}
+.postmetabottom {
+	background: #FFFFFF;
+	border-color:#E5E5E5;
+	border-style: dotted;
+	border-width:1px 1px 1px;
+	color: #333;
+	padding: 3px;
+	font-size: 11px;
+	float:left;
+	width: 590px;
+}
+
+.postmetatop {
+	background: #FFFFFF;
+	color: #333;
+	padding: 3px;
+	font-size: 11px;
+	margin-bottom: 10px;
+	float:left;
+	width: 590px;
+}
+
+.postmeta a {
+	border-bottom: none;
+}
+.postmeta a:hover {
+	border-bottom: none;
+}
+.small {
+	font-size: 10px;
+}
+code {
+	font: 12px 'Courier New', Courier, Fixed;
+}
+
+h1.title {
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 10px 10px 17px;
+}
+
+/***** LISTS FORMATTING *****/
+html>body .post ul {
+	margin-left: 0px;
+	padding: 0 0px 10px 30px;
+	list-style-image: url(images/bullet.png);
+} 
+html>body .post li {
+	margin: 0px 0 8px 0px;
+}
+.post ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+}
+.post ol li {
+	margin: 0;
+	padding: 0;
+}
+
+/***** SIDEBAR FORMATTING *****/
+
+#sidebarLeft {
+	width: 145px;
+	float: left;
+	color: #000;
+	padding: 5px 10px 10px 10px;
+}
+
+#sidebarRight {
+	width: 175px;
+	float:right;
+	margin-right: 10px;
+	color: #000;
+	padding: 5px 10px 10px 10px;
+}
+
+
+#sidebarRight h2{
+	font-size: 13px;
+	text-align: left;
+	padding:  5px 5px 5px 5px;
+	color:  #FFFFFF;
+	background:url(images/sidebarbg_right.gif) no-repeat;
+	background-color: #43e2ff;
+	margin-top:10px;
+	margin-bottom: 10px;
+	border: 1px solid #2bc0de;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+#sidebarRight h2 a{
+	color:  #FFFFFF;
+	text-decoration: none;
+}
+
+#sidebarRight h2 a:hover{
+	color:  #FFFFFF;
+	text-decoration: underline;
+}
+
+#sidebarLeft h2{
+	font-size: 13px;
+	text-align: left;
+	padding:  5px 5px 5px 5px;
+	color:  #FFFFFF;
+	background:url(images/sidebarbg_left.gif) no-repeat;
+	background-color: #43e2ff;
+	margin-top:10px;
+	margin-bottom: 10px;
+	border: 1px solid #2bc0de;
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+
+#sidebarLeft h2 a{
+	color:  #FFFFFF;
+	text-decoration: none;
+}
+
+#sidebarLeft h2 a:hover{
+	color:  #FFFFFF;
+	text-decoration: underline;
+}
+
+#sidebarRight a {
+	color: #03C;
+	text-decoration: none;
+}
+
+#sidebarRight a:hover {
+	background: none;
+	color:  #49647d;
+	text-decoration: underline;
+}
+
+#sidebarLeft a {
+	color: #03C;
+	text-decoration: none;
+}
+
+#sidebarLeft a:hover {
+	background: none;
+	color:  #49647d;
+	text-decoration: underline;
+}
+
+#sidebarLeft a:visited {
+	color: #49647d;
+}
+
+.sidebar
+{
+	line-height: 14px;
+	font-size: 12px;
+}
+
+.sidebar ul, .sidebar ol { 
+	margin: 0 0 1em 0; 
+	font-size: 12px;
+}
+
+.sidebar ul { 
+	list-style-type: none;
+}
+
+.sidebar li { 
+	margin: 0 0 1em 7px; 
+	/* list-style-image: url(images/bullet.png); */
+	list-style-position: inside;
+	line-height: 14px;
+	border-bottom: 1px dotted #CCC;
+}
+
+.sidebar ul li ul, .sidebar ul li ol, .sidebar ol li ul, .sidebar ol li ol { 
+	margin: 0.5em 0 0.5em 5px; 
+}
+
+
+/***** FOOTER FORMATTING *****/
+
+#footer {
+	clear: both;
+	background: #424545;
+	color: #CCC;
+	text-align: center;
+	height: auto;
+	width: 985px;
+	margin: auto;
+	padding: 30px 0px 5px 0px;
+}
+
+
+#footershadow {
+	width: 1000px;
+	height: 30px;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	background: url(images/footer_shadow.png) no-repeat;
+}
+
+#footer p.author {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	padding: 5px 0 5px 0;
+}
+
+#footer a {
+	color: #4F49AA;
+}
+#footer a:hover {
+	color: #4F67F0;
+}
+
+#footer p {
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#footer a {
+	color: #CCC;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #CCC;
+	text-decoration: underline;
+}
+#icons {
+	display: inline;
+	margin-top: -30px;
+	float: right;
+	text-align: right;
+}
+#footerIcons {
+	padding: 2px;
+	color: #000;
+	display: inline;
+	float: right;
+}
+/***** IMAGE FORMATTING *****/
+
+img.post {
+	padding: 5px;
+	border: 1px solid #CCC;
+	margin: 10px;
+	float: right;
+}
+
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+
+img.alignright {
+	padding: 5px;
+	border: 1px solid #CCC;
+	background: #fff;
+	margin: 10px 5px 10px 5px;
+	display: inline;
+}
+img.alignleft {
+	padding: 5px;
+	border: 1px solid #CCC;
+	margin: 10px 5px 10px 5px;
+	display: inline;
+}
+/***** MISCELLANEOUS FORMATTING *****/
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left
+}	
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navigation {
+  font-size: 11px;
+  height: auto;
+  line-height: 28px;
+  overflow: hidden;
+  padding: 0 28px;
+}
+
+.postspermonth {
+	margin: 5px 0 10px 0;
+	list-style: none;
+	padding-left: 25px;
+}
+
+
+/***** COMMENTS *****/
+
+#comment {
+	background: #FFFFFF;
+	color: #222222;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana;
+	margin: 5px 0px 5px 0px;
+	padding: 4px;
+	}
+		
+.commentlist li ul li {
+	font-size: 12px;
+	}
+
+.commentlist li {
+	font-weight: bold;
+	color: #666;
+	}
+
+.commentlist li .avatar { 
+	background: #FFFFFF;
+	float: right;
+	border: 1px solid #EEEEEE;
+	margin: 0px 5px 0px 10px;
+	padding: 2px;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	color: #666;
+	font-style: normal;
+	font-size: 12px;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	text-transform: none;
+	}
+
+.commentmetadata {
+	padding: 5px 0 0 0;
+	font-weight: normal;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0px;
+	}
+
+#commentform {
+	margin: 5px 10px 0px 0px;
+	}
+	
+#commentform textarea {
+	width: 98%;
+	padding: 10px;
+	border: 1px solid #666;
+	}
+	
+#respond:after {
+	content: "."; 
+	display: block; 
+	height: 0px; 
+	clear: both; 
+	visibility: hidden;
+	}
+	
+#commentform p {
+	margin: 5px 0px 5px 0px;
+	}
+	
+#commentform #submit {
+	margin: 5px 0px 20px 0px;
+	float: left;
+	border: 1px solid #0CC;
+	}
+	
+.alt {
+	margin: 0px;
+	padding: 10px;
+	}
+
+.commentlist {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+.commentlist ol {
+	margin: 0px;
+	padding: 10px;
+	}
+
+.commentlist li {
+	margin: 15px 0px 10px;
+	padding: 10px 5px 10px 10px;
+	list-style: none;
+
+	}
+.commentlist li ul li { 
+	margin-right: -5px;
+	margin-left: 10px;
+	}
+
+.commentlist p {
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	}
+	
+.children { 
+	margin: 0px;
+	padding: 0px;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+.commentmetadata {
+	font-size: 10px;
+	margin: 0px;
+	display: block;
+	}
+
+#author, #email, #url {
+	background: #FFFFFF;
+	color: #222222;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana;
+	margin: 0px;
+	padding: 4px;
+	border: 1px solid #666;
+	}
+	
+.thread-alt {
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+.thread-even {
+	background: #dfeaf2;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+.depth-1 {
+	border: 1px solid #E6E6E6;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.even, .alt {
+	border: 1px solid #CCC;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.pinglist { margin-top: 10px; width: 550px; float: left; }
+
+li.pings {
+  border-bottom: 1px dotted #CCC;
+  margin: 0;
+  padding: 5px 0 5px 5px;
+  width: 580px;
+}
+
+.pings:first-child { border-top: none; }
+.pings:last-child { border-bottom: none; margin-bottom: 30px; }
+
+
+
+/**** CAPTION FORMATTING ******/
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+/*** CALENDAR FORMATTING ***/
+#wp-calendar {
+	border: 1px solid #CCC;
+	empty-cells: show;
+	font-size: 14px;
+	margin: 0;
+	width: 90%;
+}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#wp-calendar a:hover {
+	background: #e0e6e0;
+	color: #333;
+	font-weight: bold;
+}
+
+#wp-calendar caption {
+	color: #000000;
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#wp-calendar td {
+	color: #666;
+	font: normal 12px Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+	letter-spacing: normal;
+	padding: 2px 0;
+	text-align: center;
+}
+
+#wp-calendar td.pad:hover {
+	background: #fff;
+}
+
+#wp-calendar td:hover, #wp-calendar #today {
+	background: #eee;
+	color: #bbb;
+}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+  

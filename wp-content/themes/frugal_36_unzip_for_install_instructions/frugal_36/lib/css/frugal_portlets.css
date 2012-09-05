@@ -1,0 +1,7 @@
+.column { width: 325px; float: left; padding-bottom: 20px; }
+.portlet { margin: 5px 10px 20px 10px; background: #EDF0F5; }
+.portlet-header { text-align: center; border: 1px solid #ccc; background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x; padding: 10px 5px; margin: -3px -3px -1px -3px; font-weight: bold; font-family: Georgia,'Times New Roman',Times,serif; cursor: move; }
+.portlet-header .ui-icon { float: right; cursor: pointer; }
+.portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * { visibility: hidden; }

@@ -1,0 +1,346 @@
+/*** Theme Option Styles  ***/
+
+a, a:link, a:visited {
+	color: #3A639A;
+	text-decoration: none;
+}
+
+a:hover a:active  {
+	color: #3A639A;
+	text-decoration: underline;
+}
+
+.upload_settings_wrap {
+	width: 990px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.optionbox_outer_wrap {
+	width: 660px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.optionbox_outer_upload_warning {
+	width: 710px;
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	float: left;
+}
+
+.upload_warning {
+	width: 710px;
+	background: #D8B8B8;
+	border: 2px dashed #666;
+	margin: 0px;
+	padding: 5px;
+	color: #444;
+	font-weight: bold;
+	float: left;
+}
+
+.optionbox_outer_skins_warning {
+	width: 245px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	float: left;
+}
+
+.skins_warning {
+	width: 225px;
+	background: #D8B8B8;
+	border: 2px dashed #666;
+	margin: 0px;
+	padding: 5px;
+	color: #444;
+	font-weight: bold;
+	float: left;
+}
+
+.optionbox_outer {
+	width: 300px;
+	margin: 0px;
+	padding: 0px 30px 0px 0px;
+	float: left;
+}
+
+.optionbox_inner {
+	width: 288px;
+	border: 1px solid #ddd;
+	background: #EDF0F5;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin: 10px 15px 10px 0px;
+	padding: 0px 10px 15px 10px;
+}
+
+.optionbox_inner h3 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: -3px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_inner h4 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: 15px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_outer_2 {
+	width: 641px;
+	margin: 0px;
+	padding: 0px 30px 0px 0px;
+	float: left;
+}
+
+.optionbox_inner_2 {
+	width: 617px;
+	border: 1px solid #ddd;
+	background: #EDF0F5;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin: 10px 15px 10px 0px;
+	padding: 0px 10px 15px 10px;
+}
+
+.optionbox_inner_2 h3 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: -3px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_inner_2 h4 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: 15px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_outer_3 {
+	width: 335px;
+	margin: 0px;
+	padding: 0px 6px 0px 9px;
+	float: left;
+}
+
+.optionbox_inner_3 {
+	width: 282px;
+	border: 1px solid #ddd;
+	background: #EDF0F5;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin: 10px 0px 5px 0px;
+	padding: 0px 10px 15px 10px;
+	color: #333;
+}
+
+.optionbox_inner_3 h3 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: -3px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_inner_3 h4 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: 15px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_outer_4 {
+	width: 235px;
+	margin: 0px;
+	padding: 0px 30px 0px 0px;
+	float: left;
+}
+
+.optionbox_inner_4 {
+	width: 282px;
+	border: 1px solid #ddd;
+	background: #EDF0F5;
+	margin: 0px;
+	padding: 0px;
+	margin: 10px 0px 10px 0px;
+	padding: 0px 10px 15px 10px;
+	color: #333;
+}
+
+.optionbox_inner_4 h3 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: -3px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_inner_4 h4 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: 15px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_outer_5 {
+	width: 968px;
+	margin: 0px;
+	padding: 0px 10px 0px 0px;
+	float: left;
+}
+
+.optionbox_inner_5 {
+	width: 950px;
+	border: 1px solid #ddd;
+	background: #EDF0F5;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin: 0px 15px 10px 0px;
+	padding: 0px 10px 15px 10px;
+	color: #333;
+}
+
+.optionbox_inner_5 h3 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: -3px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.optionbox_inner_5 h4 {
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #D5DAE0 url(images/frugal-admin-head.jpg) repeat-x;
+	padding: 9px 0px 10px 0px;
+	margin: 15px -13px 10px -13px;
+	font-weight: bold;
+	font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+.color_box {
+	width: 80px;
+	margin-right: 5px;
+}
+
+.color_box2 {
+	width: 80px;
+	margin-left: 5px;
+}
+
+.color_box3 {
+	width: 80px;
+}
+
+.code_box textarea {
+	width: 274px;
+	height: 95px;
+	margin: 5px 0px 5px -4px;
+	padding: 6px 7px 6px 7px;
+	background: #333;
+	color: #fff;
+}
+
+.code_box2 textarea {
+	width: 274px;
+	height: 80px;
+	margin: 5px 0px 5px -4px;
+	padding: 6px 7px 6px 7px;
+	background: #333;
+	color: #fff;
+}
+
+.code_box3 textarea {
+	width: 274px;
+	height: 80px;
+	margin: 5px 0px 5px -4px;
+	padding: 6px 7px 6px 7px;
+	background: #333;
+	color: #fff;
+}
+
+.gray_box {
+	background: #D5DAE0;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+}
+
+.light_gray_box {
+	background: #EEEEEE;
+	border: 1px solid #DDDDDD;
+	padding: 5px;
+}
+
+.save_inner  {
+background:url("images/frugal-admin-head.jpg") repeat-x scroll 0 0 #D5DAE0;
+border:1px solid #CCCCCC;
+cursor:pointer;
+font-family:Georgia,'Times New Roman','Trebuchet MS';
+font-size:20px;
+font-weight:bold;
+height:35px;
+margin-left:16px;
+margin-top:-12px;
+padding-bottom:9px;
+width:310px;
+}
+
+/* Java Hover-Tips Styles */
+
+#tooltip {
+	width: 230px;
+	position: absolute;
+	background: #555;
+	padding: 4px 6px;
+	color: #fff;
+	display: none;
+	z-index: 500;
+}
+
+.tooltip{
+	color: #3A639A;
+}
+
+.tooltip a, a:visited {
+	color: #3A639A;
+	text-decoration: none;
+}
+
+.tooltip a:active, a:hover {
+	color: #5482C8;
+	text-decoration: none;
+}

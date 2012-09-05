@@ -1,0 +1,66 @@
+changelog
+
+1.0.1
+------
+Fixed possible issue with clicking next url on slideshow on some browsers and set ups
+
+1.0.2
+------
+Fixed beta firefox issue with theme options
+
+1.0.3
+-----
+- Updated for BuddyPress 1.2.4
+- Added ability to add link to image in slider
+
+1.0.4
+-----
+- Updated for WordPress 3.0
+- NEW FEATURE: Sign up now box: encourage your users to sign up with a button and text area linking to sign up form that detects if multisite or BuddyPress form it should show.  You can also enter your own custom login page url if you have created one and it will link to that.
+- NEW FEATURE: Added post thumbnails to all search and archive pages - uses the built in WordPress post thumbnail feature
+- NEW FEATURE: Added WordPress 3.0 menus
+- Updated for BuddyPress 1.2.4.1
+- Some CSS optimisation done.
+- Updated mo / po files
+
+1.0.5
+-----
+- Fixed language issue with menus in admin not showing as active
+- Updated mo / po files
+
+1.0.6
+------
+- Regenerated zip file
+
+1.0.7
+------
+- Updated to BuddyPress 1.2.5
+- Added new post loop function
+
+1.0.8
+------
+- Fixed issue where the post author link wasn't working
+
+1.0.9
+-----
+- Fixed issue where if you use on a sub blog the theme theme options don't work since 3.0
+
+1.1
+-----
+- Updated for BuddyPress 1.2.5.2
+
+1.2
+-----
+- Loop changes
+
+1.3
+-----
+- Adjusted midnight styling
+
+1.4
+----
+- Did some bp nav changes to fit in with plugins and 3.0 menus
+
+1.5
+----
+- Updated CSS and language files

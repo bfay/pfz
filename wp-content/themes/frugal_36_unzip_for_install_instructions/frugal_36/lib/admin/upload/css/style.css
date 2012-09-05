@@ -1,0 +1,474 @@
+html, body {
+height: 100%;
+} 
+
+/*The below styles how the header DIV will look*/
+.header {
+	font-family: Georgia, serif;
+	font-size: 16px;
+	text-align: left;
+	color: #555;
+	margin-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	padding-left: 220px;
+	background-repeat: no-repeat;
+	background-position: center left;
+	height: 0px;
+	line-height: 200%;
+}
+
+/*The below styles how the main DIV which holds the all other DIVs will look*/
+.placeholder {
+	margin-bottom: 10px;
+	text-align: center;
+	width: 950px;
+	float: left;
+}
+
+.placeholder2 {
+	margin-bottom: 10px;
+	text-align: center;
+	width: 475px;
+	float: left;
+}
+
+/*The below styles how the upload form DIVS will look (the rounded edges of the boxes)*/
+/*To change the background colour of these boxes change every occurrence of #EEEEEE*/
+.container{
+  display:block !important; 
+  }
+
+.container *  {
+  display:block !important;
+  height:1px !important;
+  overflow:hidden !important;
+  font-size:.01em !important;
+  background:#EEEEEE !important;}
+
+.container1{
+  margin-left:3px !important;
+  margin-right:3px !important;
+  padding-left:1px !important;
+  padding-right:1px !important;
+  border-left:1px solid #EEEEEE !important;
+  border-right:1px solid #EEEEEE !important;
+  background:#EEEEEE !important;}
+
+.container2{
+  margin-left:1px !important;
+  margin-right:1px !important;
+  padding-right:1px !important;
+  padding-left:1px !important;
+  border-left:1px solid #EEEEEE !important;
+  border-right:1px solid #EEEEEE !important;
+  background:#EEEEEE !important;}
+
+.container3  {
+  margin-left:1px !important;
+  margin-right:1px !important;
+  border-left:1px solid #EEEEEE !important;
+  border-right:1px solid #EEEEEE !important;}
+
+.container4{
+  border-left:1px solid #EEEEEE !important;
+  border-right:1px solid #EEEEEE !important;}
+
+.container5{
+  border-left:1px solid #EEEEEE !important;
+  border-right:1px solid #EEEEEE !important;}
+
+/*The below styles how the content contained within the rounded edged boxes will look*/
+/*To change the background colour of this box change #EEEEEE*/
+.containercontent{
+ padding-top: 1px !important;
+ color: #000000 !important;
+ text-align: left !important;
+ font-family: Tahoma !important;
+ padding-left: 4px !important;
+ padding-right: 4px !important;
+ padding-bottom: 5px !important;
+ background:#EEEEEE !important;}
+ 
+ .containercontent-input{
+ width: 850px !important;
+ padding-top: 1px !important;
+ color: #000000 !important;
+ text-align: left !important;
+ font-family: Tahoma !important;
+ padding-left: 4px !important;
+ padding-right: 4px !important;
+ padding-bottom: 5px !important;
+ background:#EEEEEE !important;}
+
+/*The below styles how the main DIV which holds the all other DIVs will look*/
+.placeholderoptions {
+	margin-top: 25px !important;
+	margin-bottom: 25px !important;
+	text-align: center !important;
+	width: 450px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+/*The below styles how the upload form DIVS will look (the rounded edges of the boxes)*/
+/*To change the background colour of these boxes change every occurrence of #EEEEEE*/
+.uploadoptions{
+  display:block !important; 
+  }
+
+.uploadoptions *  {
+  display:block !important;
+  height:1px !important;
+  overflow:hidden !important;
+  font-size:.01em !important;
+  background:#FFFFFF !important;}
+
+.uploadoptions1{
+  margin-left:3px !important;
+  margin-right:3px !important;
+  padding-left:1px !important;
+  padding-right:1px !important;
+  border-left:1px solid #FFFFFF !important;
+  border-right:1px solid #FFFFFF !important;
+  background:#FFFFFF !important;}
+
+.uploadoptions2{
+  margin-left:1px !important;
+  margin-right:1px !important;
+  padding-right:1px !important;
+  padding-left:1px !important;
+  border-left:1px solid #FFFFFF !important;
+  border-right:1px solid #FFFFFF !important;
+  background:#FFFFFF !important;}
+
+.uploadoptions3  {
+  margin-left:1px !important;
+  margin-right:1px !important;
+  border-left:1px solid #FFFFFF !important;
+  border-right:1px solid #FFFFFF !important;}
+
+.uploadoptions4{
+  border-left:1px solid #FFFFFF !important;
+  border-right:1px solid #FFFFFF !important;}
+
+.uploadoptions5{
+  border-left:1px solid #FFFFFF !important;
+  border-right:1px solid #FFFFFF !important;}
+
+/*The below styles how the content contained within the rounded edged boxes will look*/
+/*To change the background colour of this box change #EEEEEE*/
+.uploadoptionscontent{
+ min-height: 50px !important;
+ padding: 10px !important;
+ color: #333 !important;
+ text-align: left !important;
+ font-family: Tahoma !important;
+ font-size: 12px !important;
+ background:#FFFFFF !important;}
+
+
+.uploadprogress {
+	font-family: tahoma !important;
+	font-size: 16px !important;
+	color: #000000 !important;
+	margin-left: 10px !important;
+	padding-top: 25px !important;
+	padding-left: 60px !important;
+	background-image: url(../images/loading.gif) !important;
+	background-repeat: no-repeat !important;
+	background-position: center left !important;
+	height: 48px !important;
+}
+
+/*The below styles how a success message will look in the upload form*/
+.success {
+	font-family: tahoma !important;
+	font-size: 16px !important;
+	color: green !important;
+	margin-left: 10px !important;
+	padding-top: 25px !important;
+	padding-left: 60px !important;
+	background-image: url(../images/success.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center left !important;
+	height: 48px !important;
+}
+
+/*The below styles how a success message will look in the delete box*/
+.deletesuccess {
+	background-image: url(../images/success.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	height: 48px !important;
+	width: 100px !important;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 10px !important;
+}
+
+/*The below styles how an error message will look in the upload form*/
+.error {
+font-family: tahoma !important;
+	font-size: 16px !important;
+	color: red !important;
+	margin-left: 10px !important;
+	padding-top: 25px !important;
+	padding-left: 60px !important;
+	background-image: url(../images/error.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center left !important;
+	height: 48px !important;
+}
+
+.renameerror {
+	background-image: url(../images/error.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	height: 48px !important;
+	width: 100px !important;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 10px !important;
+}
+
+/*The below styles how the various input boxes look*/
+.optionsinput {
+	font-family: tahoma !important;
+	font-size: 14px !important;
+	background: #FFFFFF !important;
+	border: 1px solid #000000 !important;
+	margin-left: 10px !important;
+	}
+	
+.renameinput {
+	font-family: tahoma !important;
+	font-size: 14px !important;
+	background: #FFFFFF !important;
+	border: 1px solid #000000 !important;
+	margin-left: 10px !important;
+	}
+
+/*The below styles how the file upload input box will look*/	
+.fileinput {
+	font-family: tahoma !important;
+	font-size: 16px !important;
+	background: #FFFFFF !important;
+	border: 1px solid #000000 !important;
+	height: 25px !important;
+	width: 600px !important;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	}
+
+.buttoncontainer {
+	margin-bottom: 25px !important;
+	text-align: center !important;
+	width: 260px !important;
+	min-height: 25px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.buttoncontainer a:link, .buttoncontainer a:visited {
+	color: #ffffff !important;
+	text-decoration: none !important;
+	}
+
+.button {
+	font-family: Arial !important;
+	font-size: 14px !important;
+	color: #ffffff !important;
+	background-image: url(../images/button_bg.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	border: 0 !important;
+	height: 25px !important;
+	width: 112px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block !important;
+	margin-top: 14px !important;
+	padding-left: 8px !important;
+	padding-top: 10px !important;
+	text-align: center !important;
+	float: right !important;
+	}
+	
+.okbutton {
+	font-family: Arial !important;
+	font-size: 14px !important;
+	color: #ffffff !important;
+	background-image: url(../images/button_bg.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	border: 0 !important;
+	height: 25px !important;
+	width: 112px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block !important;
+	margin-top: 14px !important;
+	padding-left: 4px !important;
+	padding-top: 10px !important;
+	text-align: center !important;
+	}
+	
+.inputbutton {
+	font-family: Arial !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+	background-image: url(../images/button_bg.png) !important;
+	background-repeat: no-repeat !important;
+	border: 0 !important;
+	height: 25px !important;
+	width: 112px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: block !important;
+	margin-top: 20px !important;
+	padding-left: 0px !important;
+	padding-top: 0px !important;
+	float: left !important;
+	}
+
+.imagecontainer {
+	width: 450px !important;
+	}
+
+/*The below styles how the thumbnails will look when listed*/
+.thumbnaildiv {
+ 	width: 120px !important;
+ 	float: left !important;
+ 	position: relative !important;
+ 	/*z-index: 1 !important;*/
+ 	}
+
+.thumbnail {
+ 	border: 1px solid #000000 !important;
+ 	margin: 10px !important;
+ 	}
+
+/*The below styles how the text associated with each image will look when listed*/
+.imagetext {
+	font-family: tahoma !important;
+	font-size: 14px !important;
+	color: #333 !important;
+	width: 350px !important;
+	padding: 5px !important;
+	position: relative !important;
+	/*z-index: 2 !important;*/
+	margin-left: 110px !important;
+	}
+
+.imageinfo {
+	background-image: url(../images/information.png) !important;
+	background-repeat: no-repeat !important;
+	margin-left: 10px !important;
+	padding-left: 25px !important;
+	height: 16px !important;
+	margin-top: 0 !important;
+	margin-bottom: 5px !important;
+}
+
+.imagedetails {
+	background-image: url(../images/image.png) !important;
+	background-repeat: no-repeat !important;
+	margin-left: 10px !important;
+	padding-left: 25px !important;
+	height: 16px !important;
+	margin-top: 0 !important;
+	margin-bottom: 5px !important;
+}
+
+.imagesize {
+	background-image: url(../images/disk.png) !important;
+	background-repeat: no-repeat !important;
+	margin-left: 10px !important;
+	padding-left: 25px !important;
+	height: 16px !important;
+	margin-top: 0 !important;
+	margin-bottom: 5px !important;
+}
+
+.imagelink {
+	background-image: url(../images/link.png) !important;
+	background-repeat: no-repeat !important;
+	margin-left: 10px !important;
+	padding-left: 25px !important;
+	min-height: 16px !important;
+	margin-top: 0 !important;
+	margin-bottom: 5px !important;
+}
+
+.imagelink a:link, .imagelink a:visited {
+	color: #3A639A !important;
+	text-decoration: none !important;
+	}
+
+/*The below styles the look of the screen blackout when the delete button is pressed*/	
+.blackout{
+	position: fixed !important;
+	z-index: 5 !important;
+	background-color: #000000 !important;
+	filter:alpha(opacity=80) !important;
+	-moz-opacity: 0.8 !important;
+	opacity: 0.8 !important;
+	top: 0 !important; 
+	right: 0 !important; 
+	bottom: 0 !important; 
+	left: 0 !important;
+	width: 100% !important;
+	text-align: center !important;
+	line-height: 0 !important;	
+	height: 100% !important;
+	min-height: 100% !important;
+}
+
+/*The below styles how the box in the middle of the blackout screen will look*/
+.box {
+	color: #000000 !important;
+	margin-top: 200px !important;
+	text-align: center !important;
+	background-color: #ffffff !important;
+	width: 500px !important;
+	min-height: 300px !important;
+	left: 0 !important;
+	line-height: 0 !important;	
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+/*The below styles how the text at the of the box in the middle of the blackout screen will look*/
+.boxheader {
+	font-family: tahoma !important;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	display: block !important;
+	padding-bottom: 10px !important;
+	}
+
+/*The below styles how the text in the box in the middle of the blackout screen will look*/
+.boxtext {
+	font-family: tahoma !important;
+	font-size: 14px !important;
+	color: #000000 !important;
+	padding: 20px !important;
+	line-height: 100% !important;
+	padding-top: 50px !important;
+	}
+
+.boxtext a:link, .boxtext a:visited{
+	color: #ffffff !important;
+	text-decoration: none !important;
+	}
+
+/*The below styles how the thumbnail in the box in the middle of the blackout screen will look*/
+.boxthumbnail {
+	border: 1px solid #000000 !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	}
